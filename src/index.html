@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="sk">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Seminár</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="output.css" rel="stylesheet">
+</head>
+
+<body >
+<header class="flex bg-blue-500 h-12 p-0.5 w-full">
+	<div class="h-full flex">
+		<div class="h-full mr-1">
+			<img class="h-full object-contain " src="images/STU-FEI-nvf.png" alt="STU FEI logo">
+		</div>
+		<div class="">logo2</div>
+	</div>
+	<nav class="h-full ml-auto flex content-center ">
+		<button class="link-button" onclick="toggleSection('about_us_content')">
+			<a href="#about_us" >O nas</a>
+		</button>
+		<button class="link-button" onclick="toggleSection('rules_content')">
+			<a href="#rules" >Pravidla</a>
+		</button>
+		<button class="link-button" onclick="toggleSection('gallery_content')">
+			<a href="#gallery" >Galereia</a>
+		</button>
+		<button class="link-button" onclick="toggleSection('preparing_content')">
+			<a href="#preparing" >Pripravujeme</a>
+		</button>
+		<div class="link-button">
+			<a href="registration.php" >Registracia</a>
+		</div>
+		<div class="link-button">
+			<a href="submission.php" >Odovzdavanie</a>
+		</div>
+		
+	</nav>
+</header>
+<main class="flex-1 flex flex-col overflow-y-auto">
+	
+	<section class="w-full">Banner</section>
+	
+	<section id="about_us" class="bg-white h-screen ">
+		<div class="hover:bg-gray-400 transition-colors px-4 py-2 cursor-pointer flex items-center justify-between" onclick="toggleSection('about_us_content')">
+			<h2>Section 1</h2>
+		</div>
+		<div id="about_us_content" class="hidden px-4 py-2">
+			<p>This is the content of About us.</p>
+		</div>
+	</section>
+	
+	<section id="rules" class="bg-blue-400 h-screen ">
+		<div class="hover:bg-blue-500 transition-colors px-4 py-2 cursor-pointer flex items-center justify-between" onclick="toggleSection('rules_content')">
+			<h2>Section 1</h2>
+		</div>
+		<div id="rules_content" class="hidden px-4 py-2">
+			<p>This is the content of About us.</p>
+		</div>
+	</section>
+	
+	<section id="gallery" class="bg-purple-400 h-screen">
+		<div class="hover:bg-purple-500 transition-colors px-4 py-2 cursor-pointer flex items-center justify-between" onclick="toggleSection('gallery_content')">
+			<h2>Section 1</h2>
+		</div>
+		<div id="gallery_content" class="hidden px-4 py-2">
+			<p>This is the content of About us.</p>
+		</div>
+	</section>
+	
+	<section id="preparing" class="bg-pink-400 h-screen">
+		<div class="hover:bg-pink-500 transition-colors px-4 py-2 cursor-pointer flex items-center justify-between" onclick="toggleSection('preparing_content')">
+			<h2>Section 1</h2>
+		</div>
+		<div id="preparing_content" class="hidden px-4 py-2">
+			<p>This is the content of About us.</p>
+		</div>
+	</section>
+	
+</main>
+<footer class="bg-blue-500 h-12 p-0.5 w-full">
+	<p>Fixed Footer</p>
+</footer>
+<script src="scripts.js"></script>
+</body>
+
+</html>

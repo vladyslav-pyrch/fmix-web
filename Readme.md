@@ -1,0 +1,1 @@
+﻿Potrebuje skonfigurovany sendmail 
