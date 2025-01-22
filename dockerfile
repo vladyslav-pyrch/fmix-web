@@ -21,9 +21,8 @@ WORKDIR /var/www/html
 COPY ./src/index.html /var/www/html
 COPY ./src/registration.php /var/www/html
 COPY ./src/submission.php /var/www/html
-COPY ./src/bootstrap-5.3.3-dist /var/www/html/bootstrap-5.3.3-dist
-COPY ./src/js /var/www/html/js
-COPY ./src/css /var/www/html/css
+COPY ./src/scripts.js /var/www/html/scripts.js
+COPY ./src/output.css /var/www/html/output.css
 
 
 # Remove the default Apache index.html file

@@ -1,16 +1,21 @@
-﻿
+﻿let can_toggle = true;
+
 function toggleSection(id) {
-    const content = document.getElementById(id);
-    const icon = document.getElementById(`icon-${id}`);
-    if (content.classList.contains('hidden')) {
-        // Show the section
-        content.classList.remove('hidden');
-        content.classList.add('block');
-        icon.textContent = '▲'; // Change icon to upward arrow
-    } else {
-        // Hide the section
-        content.classList.remove('block');
-        content.classList.add('hidden');
-        icon.textContent = '▼'; // Change icon to downward arrow
+    const sectionContent = document.getElementById(id);
+    if (can_toggle && sectionContent.classList.contains('show')) {
+        sectionContent.classList.remove('show');
+        can_toggle = false;
+        setTimeout(() => {
+            sectionContent.classList.add('hide')
+            can_toggle = true;
+        }, 500);
+    }
+    else if (can_toggle) {
+        sectionContent.classList.remove('hide');
+        can_toggle = false;
+        setTimeout(() => {
+            sectionContent.classList.add('show')
+            can_toggle = true;
+        }, 100);
     }
 }

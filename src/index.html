@@ -8,79 +8,366 @@
 	<link href="output.css" rel="stylesheet">
 </head>
 
-<body >
-<header class="flex bg-blue-500 h-12 p-0.5 w-full">
+<body>
+<header class="flex bg-blue-500 h-12 span-0.5 w-full fixed top-0 left-0 z-10">
 	<div class="h-full flex">
-		<div class="h-full mr-1">
-			<img class="h-full object-contain " src="images/STU-FEI-nvf.png" alt="STU FEI logo">
+		<div class="h-full mr-2">
+			<a href="./index.html"><img class="h-full object-contain " src="images/STU-FEI-nvf.png" alt="STU FEI logo"></a>
 		</div>
-		<div class="">logo2</div>
+		<div class="">logo uim nie nasel som</div>
 	</div>
-	<nav class="h-full ml-auto flex content-center ">
-		<button class="link-button" onclick="toggleSection('about_us_content')">
-			<a href="#about_us" >O nas</a>
-		</button>
-		<button class="link-button" onclick="toggleSection('rules_content')">
-			<a href="#rules" >Pravidla</a>
-		</button>
-		<button class="link-button" onclick="toggleSection('gallery_content')">
-			<a href="#gallery" >Galereia</a>
-		</button>
-		<button class="link-button" onclick="toggleSection('preparing_content')">
-			<a href="#preparing" >Pripravujeme</a>
-		</button>
-		<div class="link-button">
-			<a href="registration.php" >Registracia</a>
-		</div>
-		<div class="link-button">
-			<a href="submission.php" >Odovzdavanie</a>
-		</div>
-		
+	<nav class="h-full ml-auto flex content-center overflow-y-auto text-nowrap">
+		<a href="#about_us" class="link-button " onclick="toggleSection('about_us_content')">
+			<span>O nas</span>
+		</a>
+		<a href="#rules" class="link-button" onclick="toggleSection('rules_content')">
+			<span>Pravidla</span>
+		</a>
+		<a href="#gallery" class="link-button" onclick="toggleSection('gallery_content')">
+			<span>Galereia</span>
+		</a>
+		<a href="#preparing" class="link-button" onclick="toggleSection('preparing_content')">
+			<span>Pripravujeme</span>
+		</a>
+		<a href="registration.php" class="link-button">
+			<span>Registracia</span>
+		</a>
+		<a href="submission.php" class="link-button">
+			<span>Odovzdavanie</span>
+		</a>
+
 	</nav>
 </header>
-<main class="flex-1 flex flex-col overflow-y-auto">
-	
+<main class="py-12 flex-1 flex flex-col overflow-y-auto">
+
 	<section class="w-full">Banner</section>
-	
-	<section id="about_us" class="bg-white h-screen ">
-		<div class="hover:bg-gray-400 transition-colors px-4 py-2 cursor-pointer flex items-center justify-between" onclick="toggleSection('about_us_content')">
-			<h2>Section 1</h2>
+
+	<section id="about_us" class="bg-white section">
+		<div class="hover:bg-gray-400 transition-colors px-4 py-2 cursor-pointer flex items-center justify-between"
+		     onclick="toggleSection('about_us_content')">
+			<span class="font-bold text-2xl">O nas</span>
 		</div>
-		<div id="about_us_content" class="hidden px-4 py-2">
-			<p>This is the content of About us.</p>
-		</div>
-	</section>
-	
-	<section id="rules" class="bg-blue-400 h-screen ">
-		<div class="hover:bg-blue-500 transition-colors px-4 py-2 cursor-pointer flex items-center justify-between" onclick="toggleSection('rules_content')">
-			<h2>Section 1</h2>
-		</div>
-		<div id="rules_content" class="hidden px-4 py-2">
-			<p>This is the content of About us.</p>
+		<div id="about_us_content" class="toggle-content hide px-4 py-2">
+			<span>This is the content of About us.</span>
 		</div>
 	</section>
-	
-	<section id="gallery" class="bg-purple-400 h-screen">
-		<div class="hover:bg-purple-500 transition-colors px-4 py-2 cursor-pointer flex items-center justify-between" onclick="toggleSection('gallery_content')">
-			<h2>Section 1</h2>
+
+	<section id="rules" class="bg-blue-400 section">
+		<div class="hover:bg-blue-500 transition-colors px-4 py-2 cursor-pointer flex items-center justify-between"
+		     onclick="toggleSection('rules_content')">
+			<span class="font-bold text-2xl">Pravidla</span>
 		</div>
-		<div id="gallery_content" class="hidden px-4 py-2">
-			<p>This is the content of About us.</p>
+		<div id="rules_content" class="toggle-content hide px-4 py-2">
+			<div class="border-l-2 border-l-gray-500 border-opacity-25 pl-1.5">
+				<span class="font-bold text-lg">Preambula</span>
+				<br>
+				<span>
+					Predmetom týchto pravidiel Feikárskeho Matematicko-Informaticko-Kryptografického seminára <b>FMIX</b>
+					(ďalej len „Seminár“ v príslušnom gramatickom tvare) je stanovenie podmienok, pravidiel a kritérií,
+					pri splnení ktorých sa oprávnená osoba zúčastnená na seminári môže stať úspešným riešiteľom seminára.
+				</span>
+			</div>
+			<br>
+			<div class="pl-3.5">
+				<ol class="list-roman">
+					<li>
+						<span class="font-bold text-lg">Vyhlasovateľ seminára</span>
+						<ol>
+							<li>
+							<span>
+								Vyhlasovateľom tohto seminára je Slovenská technická univerzita v Bratislave, Fakulta elektrotechniky
+								a informatiky, Ústav informatiky a matematiky, Ilkovičova 3, 841 04 Bratislava, IČO: 00 397 687
+								(ďalej len „Vyhlasovateľ“ v príslušnom gramatickom tvare).
+							</span>
+							</li>
+						</ol>
+					</li>
+					<li>
+						<span class="font-bold text-lg">Cieľ a trvanie seminára</span>
+						<ol>
+							<li>
+							<span>
+								Cieľom Seminára je podporiť a rozvíjať talentovaných študentov oblasti matematiky, 
+								informačných technológií a kryptografie, ako aj formovať budúcu generáciu študentov FEI STU
+								a technicky zdatných odborníkov.
+							</span>
+							</li>
+							<li>
+							<span>
+								Seminár bude prebiehať počas letného semestra, príslušného akademického roka
+								(ďalej len „Doba trvania seminára“ v príslušnom gramatickom tvare).
+							</span>
+							</li>
+						</ol>
+					</li>
+					<li>
+						<span class="font-bold text-lg">Osoby oprávnené zúčastniť sa</span>
+						<ol>
+							<li>
+								<span>Seminára sa môžu zúčastniť:</span>
+								<ol class="list-alpha">
+									<li>
+										<span>sú študentami stredných škôl alebo,</span>
+									</li>
+									<li>
+									<span>
+										sú študentami štvorročných, päťročných alebo osemročných gymnázií
+										ktorí sú mladší než 20 rokov.
+									</span>
+									</li>
+								</ol>
+							</li>
+							<li>
+							<span>
+								Účasť na seminári je podmienená registráciou.
+							</span>
+							</li>
+							<li>
+							<span>
+								Zo seminára bude vylúčený študenti, ktorý sa v rozpore s pravidlami seminára,  
+								podvodným spôsobom zúčastňujú seminára alebo inak neoprávnene zasahuje do seminára a jeho priebehu.
+							</span>
+							</li>
+						</ol>
+					</li>
+					<li>
+						<span class="font-bold text-lg">Kategórie úloh</span>
+						<ol>
+							<li>
+								<span>Úlohy sú rozdelené do dvoch kategórií <b>A</b> a <b>B</b>, pričom študenti jednotlivých ročníkov môžu riešiť iba vybrané úlohy z každej kategórie.</span>
+							</li>
+							<li>
+								<span>Ročníky sú určené na základe stredoškolského 4-ročného systému, t. j. nasledovne:</span>
+								<ul>
+									<li>
+										<span class="font-bold">4.ročník  =  Maturitný ročník</span>
+									</li>
+									<li>
+										<span class="font-bold">3.ročník  =  Maturitný ročník – 1 r.</span>
+									</li>
+									<li>
+										<span class="font-bold">2.ročník  =  Maturitný ročník – 2 r.</span>
+									</li>
+									<li>
+										<span class="font-bold">1.ročník  =  Maturitný ročník – 3 r.</span>
+									</li>
+								</ul>
+							</li>
+							<li>
+								<table class="table-auto w-full border-collapse text-sm">
+									<thead>
+										<tr class="">
+											<th class="px-6 py-3 border-b border-black"></th>
+											<th class="px-6 py-3 border-b border-l border-black opacity-80" colspan="4">Matematika</th>
+											<th class="px-6 py-3 border-b border-l border-black opacity-80">INF</th>
+											<th class="px-6 py-3 border-b border-l border-black opacity-80">KRYP</th>
+										</tr>
+										<tr>
+											<th class="px-6 py-3 border-b border-black"></th>
+											<th class="px-6 py-3 border-b border-black">1</th>
+											<th class="px-6 py-3 border-b border-black">2</th>
+											<th class="px-6 py-3 border-b border-black">3</th>
+											<th class="px-6 py-3 border-b border-black">4</th>
+											<th class="px-6 py-3 border-b border-black">5</th>
+											<th class="px-6 py-3 border-b border-black">6</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr class="">
+											<th class="px-6 py-3 border-b border-black">4. ročník</th>
+											<td class="px-6 py-3 border-b border-black">B</td>
+											<td class="px-6 py-3 border-b border-black">B</td>
+											<td class="px-6 py-3 border-b border-black">B</td>
+											<td class="px-6 py-3 border-b border-black">B</td>
+											<td class="px-6 py-3 border-b border-black">B</td>
+											<td class="px-6 py-3 border-b border-black">B</td>
+										</tr>
+										<tr class="">
+											<th class="px-6 py-3 border-b border-black">3. ročník</th>
+											<td class="px-6 py-3 border-b border-black">B</td>
+											<td class="px-6 py-3 border-b border-black">B</td>
+											<td class="px-6 py-3 border-b border-black">A, / B</td>
+											<td class="px-6 py-3 border-b border-black">A / B</td>
+											<td class="px-6 py-3 border-b border-black">B</td>
+											<td class="px-6 py-3 border-b border-black">B</td>
+										</tr>
+										<tr class="">
+											<th class="px-6 py-3 border-b border-black">2. ročník</th>
+											<td class="px-6 py-3 border-b border-black">A / B</td>
+											<td class="px-6 py-3 border-b border-black">A / B</td>
+											<td class="px-6 py-3 border-b border-black">A / B</td>
+											<td class="px-6 py-3 border-b border-black">B</td>
+											<td class="px-6 py-3 border-b border-black">A / B</td>
+											<td class="px-6 py-3 border-b border-black">B</td>
+										</tr>
+										<tr class="">
+											<th class="px-6 py-3 border-b border-black">1. ročník</th>
+											<td class="px-6 py-3 border-b border-black">A / B</td>
+											<td class="px-6 py-3 border-b border-black">A / B</td>
+											<td class="px-6 py-3 border-b border-black">A / B</td>
+											<td class="px-6 py-3 border-b border-black">A / B</td>
+											<td class="px-6 py-3 border-b border-black">A / B</td>
+											<td class="px-6 py-3 border-b border-black">A / B</td>
+										</tr>
+									</tbody>
+								</table>
+							</li>
+							<li>
+
+							</li>
+						</ol>
+					</li>
+					<li>
+						<span class="font-bold text-lg">Odovzdávanie riešení</span>
+						<ol>
+							<li>
+							<span>
+								Úlohy budú zverejnené na oficiálnej stránke seminára vždy k určitému dátumu,
+								pričom účastníci budú mať stanovený čas na ich vyriešenie a odovzdanie.
+							</span>
+							</li>
+							<li>
+							<span>
+								V hlavičke riešení musí byť čitateľne – tlačením písmom uvedené: meno,
+								priezvisko a špecifický identifikátor / zvolená prezývka riešiteľa.
+							</span>
+							</li>
+							<li>
+								<span>Riešenia je možné odovzdať: </span>
+								<ol class="list-alpha">
+									<li>
+									<span>
+										Elektronicky vo formáte .pdf na webovej stránke semináru
+									</span>
+									</li>
+									<li>
+									<span>
+										Písomne na adresu: Fakulta elektrotechniky a informatiky,
+										Ústav informatiky a matematiky, Ilkovičova 3, 841 04 Bratislava,<br> 
+										s poznámkou - FMIX na prednej strane obálky.
+									</span>
+									</li>
+								</ol>
+							</li>
+							<li>
+							<span>
+								Elektronické riešenia sú akceptované písané na počítači, prípadne naskenované, 
+								pričom pre každú úlohu je možné poslať len jeden súbor.
+							</span>
+							</li>
+						</ol>
+					</li>
+					<li>
+						<span class="font-bold text-lg">Hodnotenie riešení</span>
+						<ol>
+							<li>
+							<span>
+								Riešenia budú hodnotené na základe celkového postupu k riešeniu, zdôvodnenia ako aj správnosti riešenia.
+							</span>
+							</li>
+							<li>
+							<span>
+								Riešenie musí byť explicitné (pochopiteľné samo o sebe bez ďalších zdrojov) a čitateľné. V prípade, že riešenie alebo jeho časť nebude spĺňať tieto parametre, vyhlasovateľ si vyhradzuje právo neudeliť primeraný počet bodov.
+							</span>
+							</li>
+							<li>
+							<span>
+								Každá úloha má vopred stanovený počet bodov, ktorý môže byť udelený na základe čiastočného alebo úplného riešenia úlohy. 
+							</span>
+							</li>
+							<li>
+							<span>
+								Opravené, obodované a okomentované riešenia budú zaslané na email-ovú adresu priloženú k registrácií. Okrem toho bude skóre zverejnené v tzv. leaderboarde pod špeciálnym ID účastníka.
+							</span>
+							</li>
+							<li>
+							<span>
+								V prípade, že sa účastník nestotožňuje s hodnotením úlohy, môže do 10 dní od zverejnenia výsledkov podať sťažnosť na e-mailovú adresu: <a
+									href="mailto:FMIX@TBD.com">FMIX@TBD.com</a>. Sťažnosť musí obsahovať podrobné zdôvodnenie a prípadné alternatívne riešenie.
+							</span>
+							</li>
+							<li>
+							<span>
+								Účastníci sú povinní riešiť úlohy individuálne bez pomoci iných osôb, nástrojov a iných softvérových riešení, ktoré by neprimerane uľahčili ich riešenie. Výnimkou sú len tie nástroje, ktoré sú explicitne povolené v zadaniach úloh.
+							</span>
+							</li>
+						</ol>
+					</li>
+					<li>
+						<span class="font-bold text-lg">Výhra a odovzdanie výhry</span>
+						<ol>
+							<li>
+							<span>
+								Po skončení seminára sa uskutoční sústredenie pre najúspešnejších riešiteľov za jednotlivé ročníky.
+							</span>
+							</li>
+							<li>
+							<span>
+								Na sústredenie bude pozvaných 30 najlepších riešiteľov, pričom ostatní riešitelia môžu byť pozvaní ako náhradníci. Vyhlasovateľ si taktiež vyhradzuje právo pozvať aj riešiteľov, ktorý sa umiestnili na nižších priečkach, s prihliadnutím na ročník ako aj iné kategórie.
+							</span>
+							</li>
+							<li>
+							<span>
+								Riešitelia 3. a 4. ročníka, ktorý odovzdali najprepracovanejšie a najlepšie riešenia úloh, dostanú za svoje excelentné výsledky diplom od riaditeľa ÚIM. Diplom úspešného riešiteľa je v zmysle podmienok prijatia na Bc. štúdium - odbor aplikovaná informatiky, akceptovaný pod kategóriou “súťaže organizované STU”. 
+								(viac na: <a
+									href="https://www.fei.stuba.sk/ako-zacat-studovat/podmienky-prijatia/bc.-studium.html?page_id=3759#hodnotenie-sutazi">https://www.fei.stuba.sk/ako-zacat-studovat/podmienky-prijatia/bc.-studium.html?page_id=3759#hodnotenie-sutazi</a>)
+							</span>
+							</li>
+							<li>
+							<span>
+								Výhra spojená zo seminárom sa v zmysle § 4 ods. 5, písm. e) zákona číslo 30/2019 Z. z. o hazardných hrách a o zmene a doplnení niektorých zákonov nepovažuje za výhru z hazardnej hry.
+							</span>
+							</li>
+						</ol>
+					</li>
+					<li>
+						<span class="font-bold text-lg">Záverečné ustanovenia</span>
+						<ol>
+							<li>
+							<span>
+								Vyhlasovateľ si vyhradzuje právo seminár skrátiť, prerušiť, odvolať alebo zmeniť pravidlá, ak to bude potrebné z dôvodu narušenia priebehu seminára, bezpečnosti, čestnosti alebo technických problémov. Všetky zmeny pravidiel nadobúdajú účinnosť ich zverejnením na webových stránkach vyhlasovateľa	
+							</span>
+							</li>
+							<li>
+							<span>
+								Vyhlasovateľ nenesie zodpovednosť za technické problémy alebo poruchy, ku ktorým by mohlo dôjsť na počítači či inom zariadení účastníka alebo akejkoľvek inej osoby v súvislosti s účasťou na seminári.
+							</span>
+							</li>
+							<li>
+							<span>
+								Vyhlasovateľ si vyhradzuje právo kontrolovať podmienky účasti v seminári a rozhodovať o sporoch súvisiacich so seminárom s konečnou platnosťou, vrátane práva vylúčiť účastníkov za porušenie pravidiel.
+							</span>
+							</li>
+						</ol>
+					</li>
+				</ol>
+			</div>
 		</div>
 	</section>
-	
-	<section id="preparing" class="bg-pink-400 h-screen">
-		<div class="hover:bg-pink-500 transition-colors px-4 py-2 cursor-pointer flex items-center justify-between" onclick="toggleSection('preparing_content')">
-			<h2>Section 1</h2>
+
+	<section id="gallery" class="bg-purple-400 section">
+		<div class="hover:bg-purple-500 transition-colors px-4 py-2 cursor-pointer flex items-center justify-between"
+		     onclick="toggleSection('gallery_content')">
+			<span class="font-bold text-2xl">Galereja</span>
 		</div>
-		<div id="preparing_content" class="hidden px-4 py-2">
-			<p>This is the content of About us.</p>
+		<div id="gallery_content" class="toggle-content hide px-4 py-2">
+			<span>This is the content of About us.</span>
 		</div>
 	</section>
-	
+
+	<section id="preparing" class="bg-pink-400 section">
+		<div class="hover:bg-pink-500 transition-colors px-4 py-2 cursor-pointer flex items-center justify-between"
+		     onclick="toggleSection('preparing_content')">
+			<span class="font-bold text-2xl">preparujeme</span>
+		</div>
+		<div id="preparing_content" class="toggle-content hide px-4 py-2">
+			<span>This is the content of About us.</span>
+		</div>
+	</section>
+
 </main>
-<footer class="bg-blue-500 h-12 p-0.5 w-full">
-	<p>Fixed Footer</p>
+<footer class="bg-blue-500 h-12 span-0.5 w-full fixed bottom-0 left-0 z-10">
+	<span>Fixed Footer</span>
 </footer>
 <script src="scripts.js"></script>
 </body>
