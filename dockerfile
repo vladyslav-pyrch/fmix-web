@@ -18,12 +18,8 @@ RUN a2enmod php7.3 && a2enmod rewrite
 WORKDIR /var/www/html
 
 # Copy application files to the container
-COPY ./src/index.html /var/www/html
-COPY ./src/registration.php /var/www/html
-COPY ./src/submission.php /var/www/html
-COPY ./src/scripts.js /var/www/html/scripts.js
-COPY ./src/output.css /var/www/html/output.css
-
+COPY ./src/images/* /var/www/html/images/
+COPY ./src/* /var/www/html
 
 # Remove the default Apache index.html file
 # RUN rm /var/www/html/index.html
