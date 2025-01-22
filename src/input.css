@@ -32,7 +32,7 @@
     }
     
     .section {
-        @apply py-12 min-h-screen transition-transform
+        @apply py-12 transition-transform h-screen overflow-y-auto;
     }
 
     /* Custom transition for unfolding from top to bottom */
