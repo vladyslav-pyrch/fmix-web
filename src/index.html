@@ -10,13 +10,14 @@
 </head>
 
 <body class="overflow-y-hidden">
-<header class="flex bg-blue-500 h-12 span-0.5 w-full fixed top-0 left-0 z-10">
+<header class="flex bg-gray-300 h-12 span-0.5 w-full fixed top-0 left-0 z-10">
 	<div class="h-full flex">
 		<div class="h-full mr-2">
-			<a href="./index.html"><img class="h-full object-contain " src="images/STU-FEI-nvf.png" alt="STU FEI logo"></a>
+			<a href="./index.html"><img class="h-full object-contain" src="images/STU-FEI-nvf.png" alt="STU FEI logo"></a>
 		</div>
 		<div class="">logo uim nie nasel som</div>
 	</div>
+
 	<nav class="h-full ml-auto flex content-center overflow-y-auto text-nowrap">
 		<a href="#about_us" class="link-button " onclick="toggleOnSection('about_us_content')">
 			<span>O nas</span>
@@ -36,23 +37,21 @@
 		<a href="submission.php" class="link-button">
 			<span>Odovzdavanie</span>
 		</a>
-
 	</nav>
 </header>
-<main class="py-12 flex-1 flex flex-col overflow-y-hidden min-h-screen">
 
-	<section id="banner" class="w-full section">Banner</section>
-
-	<section id="about_us" class="bg-white section">
+<main class="flex-1 flex flex-col overflow-y-hidden min-h-screen">
+	<section id="about_us" class="section">
 		<div class="px-4 py-2">
 			<span class="font-bold text-2xl">O nas</span>
 		</div>
-		<div id="about_us_content" class="toggle-content hide px-4 py-2">
+		<div id="about_us_content" class="toggle-content show px-4 py-2">
+			<div class="w-full"><img class="w-full" src="images/CelyNazov.png" alt="full name"></div>
 			<span>This is the content of About us.</span>
 		</div>
 	</section>
 
-	<section id="rules" class="bg-blue-400 section">
+	<section id="rules" class="section">
 		<div class="px-4 py-2">
 			<span class="font-bold text-2xl">Pravidla</span>
 		</div>
@@ -155,64 +154,66 @@
 							<li class="overflow-y-auto">
 								<table class="table-auto w-full border-collapse text-sm ">
 									<thead>
-										<tr class="">
-											<th class="px-6 py-3 border-b border-black"></th>
-											<th class="px-6 py-3 border-b border-l border-black opacity-80" colspan="4">Matematika</th>
-											<th class="px-6 py-3 border-b border-l border-black opacity-80">INF</th>
-											<th class-6 py-3 border-b border-l border-black opacity-80">KRYP</th>
-										</tr>
-										<tr>
-											<th class="px-6 py-3 border-b border-black"></th>
-											<th class="px-6 py-3 border-b border-black">1</th>
-											<th class="px-6 py-3 border-b border-black">2</th>
-											<th class="px-6 py-3 border-b border-black">3</th>
-											<th class="px-6 py-3 border-b border-black">4</th>
-											<th class="px-6 py-3 border-b border-black">5</th>
-											<th class="px-6 py-3 border-b border-black">6</th>
-										</tr>
+									<tr class="bg-gray-100">
+										<th class="px-6 py-3 border-b border-black"></th>
+										<th class="px-6 py-3 border-b border-l border-black opacity-80" colspan="4">Matematika</th>
+										<th class="px-6 py-3 border-b border-l border-black opacity-80">INF</th>
+										<th class="px-6 py-3 border-b border-l border-black opacity-80">KRYP</th>
+									</tr>
+									<tr>
+										<th class="px-6 py-3 border-b border-black"></th>
+										<th class="px-6 py-3 border-b border-black">1</th>
+										<th class="px-6 py-3 border-b border-black">2</th>
+										<th class="px-6 py-3 border-b border-black">3</th>
+										<th class="px-6 py-3 border-b border-black">4</th>
+										<th class="px-6 py-3 border-b border-black">5</th>
+										<th class="px-6 py-3 border-b border-black">6</th>
+									</tr>
 									</thead>
 									<tbody>
-										<tr class="">
-											<th class="px-6 py-3 border-b border-black">4. ročník</th>
-											<td class="px-6 py-3 border-b border-black">B</td>
-											<td class="px-6 py-3 border-b border-black">B</td>
-											<td class="px-6 py-3 border-b border-black">B</td>
-											<td class="px-6 py-3 border-b border-black">B</td>
-											<td class="px-6 py-3 border-b border-black">B</td>
-											<td class="px-6 py-3 border-b border-black">B</td>
-										</tr>
-										<tr class="">
-											<th class="px-6 py-3 border-b border-black">3. ročník</th>
-											<td class="px-6 py-3 border-b border-black">B</td>
-											<td class="px-6 py-3 border-b border-black">B</td>
-											<td class="px-6 py-3 border-b border-black">A, / B</td>
-											<td class="px-6 py-3 border-b border-black">A / B</td>
-											<td class="px-6 py-3 border-b border-black">B</td>
-											<td class="px-6 py-3 border-b border-black">B</td>
-										</tr>
-										<tr class="">
-											<th class="px-6 py-3 border-b border-black">2. ročník</th>
-											<td class="px-6 py-3 border-b border-black">A / B</td>
-											<td class="px-6 py-3 border-b border-black">A / B</td>
-											<td class="px-6 py-3 border-b border-black">A / B</td>
-											<td class="px-6 py-3 border-b border-black">B</td>
-											<td class="px-6 py-3 border-b border-black">A / B</td>
-											<td class="px-6 py-3 border-b border-black">B</td>
-										</tr>
-										<tr class="">
-											<th class="px-6 py-3 border-b border-black">1. ročník</th>
-											<td class="px-6 py-3 border-b border-black">A / B</td>
-											<td class="px-6 py-3 border-b border-black">A / B</td>
-											<td class="px-6 py-3 border-b border-black">A / B</td>
-											<td class="px-6 py-3 border-b border-black">A / B</td>
-											<td class="px-6 py-3 border-b border-black">A / B</td>
-											<td class="px-6 py-3 border-b border-black">A / B</td>
-										</tr>
+									<tr class="bg-gray-100">
+										<th class="px-6 py-3 border-b border-black">4. ročník</th>
+										<td class="px-6 py-3 border-b border-black">B</td>
+										<td class="px-6 py-3 border-b border-black">B</td>
+										<td class="px-6 py-3 border-b border-black">B</td>
+										<td class="px-6 py-3 border-b border-black">B</td>
+										<td class="px-6 py-3 border-b border-black">B</td>
+										<td class="px-6 py-3 border-b border-black">B</td>
+									</tr>
+									<tr class="">
+										<th class="px-6 py-3 border-b border-black">3. ročník</th>
+										<td class="px-6 py-3 border-b border-black">B</td>
+										<td class="px-6 py-3 border-b border-black">B</td>
+										<td class="px-6 py-3 border-b border-black">A, / B</td>
+										<td class="px-6 py-3 border-b border-black">A / B</td>
+										<td class="px-6 py-3 border-b border-black">B</td>
+										<td class="px-6 py-3 border-b border-black">B</td>
+									</tr>
+									<tr class="bg-gray-100">
+										<th class="px-6 py-3 border-b border-black">2. ročník</th>
+										<td class="px-6 py-3 border-b border-black">A / B</td>
+										<td class="px-6 py-3 border-b border-black">A / B</td>
+										<td class="px-6 py-3 border-b border-black">A / B</td>
+										<td class="px-6 py-3 border-b border-black">B</td>
+										<td class="px-6 py-3 border-b border-black">A / B</td>
+										<td class="px-6 py-3 border-b border-black">B</td>
+									</tr>
+									<tr class="">
+										<th class="px-6 py-3 border-b border-black">1. ročník</th>
+										<td class="px-6 py-3 border-b border-black">A / B</td>
+										<td class="px-6 py-3 border-b border-black">A / B</td>
+										<td class="px-6 py-3 border-b border-black">A / B</td>
+										<td class="px-6 py-3 border-b border-black">A / B</td>
+										<td class="px-6 py-3 border-b border-black">A / B</td>
+										<td class="px-6 py-3 border-b border-black">A / B</td>
+									</tr>
 									</tbody>
 								</table>
 							</li>
 							<li>
-
+								<span>
+									Ak účastník má možnosť rieši úlohy z oboch kategórií, započíta sa mu riešenie s vyšším bodovým ohodnotením.
+								</span>
 							</li>
 						</ol>
 					</li>
@@ -344,7 +345,7 @@
 		</div>
 	</section>
 
-	<section id="gallery" class="bg-purple-400 section">
+	<section id="gallery" class="section">
 		<div class="px-4 py-2">
 			<span class="font-bold text-2xl">Galereja</span>
 		</div>
@@ -353,7 +354,7 @@
 		</div>
 	</section>
 
-	<section id="preparing" class="bg-pink-400 section">
+	<section id="preparing" class="section">
 		<div class="px-4 py-2">
 			<span class="font-bold text-2xl">preparujeme</span>
 		</div>
@@ -361,10 +362,49 @@
 			<span>This is the content of About us.</span>
 		</div>
 	</section>
-
 </main>
-<footer class="bg-blue-500 h-12 span-0.5 w-full fixed bottom-0 left-0 z-10">
-	<span>Fixed Footer</span>
+
+<footer class="bg-gray-300 h-40 py-3.5 px-9 span-0.5 w-full fixed bottom-0 left-0 z-10">
+	<div class="w-full flex flex-row">
+		<div class="flex-row flex">
+			<div class="mr-2 ">
+				<address>
+					Fakulta elektrotechniky a informatiky,<br>
+					Ústav informatiky a matematiky,<br>
+					Ilkovičova 3,<br>
+					841 04 Bratislava,<br>
+					Slovakia
+				</address>
+			</div>
+
+			<div class="flex flex-col justify-end">
+				<a href="mailto:some@mail.com">some@mail.com</a>
+			</div>
+		</div>
+		<div class="ml-auto flex flex-row">
+			<div class="w-11 mr-2 h-full flex flex-col justify-end">
+				<a target="_blank" href="https://discord.gg/F2yjRggQ">
+					<img class="w-full" src="images/discord-logo.png" alt="Discord">
+				</a>
+			</div>
+			<div class="flex flex-col w-11 justify-start">
+				<div>
+					<span>
+						Partneri
+					</span>
+				</div>
+
+				<div class="w-full">
+					<img class="w-full" src="images/logoFarebne.png" alt="SPEAI logo">
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="flex justify-center items-center">
+		<span>
+			© 2025 FMIX seminár web stránka. Všetky práva vyhradené. Vyrobené Vladyslavov Pyrchom.
+		</span>
+	</div>
 </footer>
 <script src="scripts.js"></script>
 </body>

@@ -3,8 +3,13 @@ module.exports = {
 	content: ["./src/**/*.{html,js,php}"],
 	theme: {
 		extend: {
-			screens: {
-				'xs': '480px',  // Define extra small breakpoint
+			colors: {
+				cobalt: '#053da8',
+				'purple-heart': '#5831ac',
+				'violet-eggplant': '#a706a6',
+				'catalina-blue': '#042b76',
+				meteorite: '#3e2278',
+				'cardinal-pink': '#750474'
 			}
 		},
 	},

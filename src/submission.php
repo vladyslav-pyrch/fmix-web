@@ -88,7 +88,7 @@ render:
 <div class="container mt-5">
 	<header class="p-3 mb-4">
 		<div class="container">
-			<a href="index.php" class="btn btn-secondary">Domov</a>
+			<a href="/" class="btn btn-secondary">Domov</a>
 		</div>
 	</header>
 
@@ -124,7 +124,7 @@ render:
 	</form>
 
 	<footer class="text-center mt-5">
-		<p>&copy; <?= date('Y') ?> Formulár na odovzdanie zadania. Všetky práva vyhradené. Made by Vladyslav Pyrch</p>
+		<p>&copy; <?= date('Y') ?>  FMIX seminár web stránka. Všetky práva vyhradené. Vyrobené Vladyslavov Pyrchom.</p>
 	</footer>
 </div>
 
