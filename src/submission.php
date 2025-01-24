@@ -124,7 +124,7 @@ render:
 	</form>
 
 	<footer class="text-center mt-5">
-		<p>&copy; <?= date('Y') ?>  FMIX seminár web stránka. Všetky práva vyhradené. Vyrobené Vladyslavov Pyrchom.</p>
+		<p>&copy; <?= date('Y') ?>  FMIX seminár web stránka. Všetky práva vyhradené.</p>
 	</footer>
 </div>
 

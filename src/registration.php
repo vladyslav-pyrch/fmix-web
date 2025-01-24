@@ -42,19 +42,6 @@ if (file_exists("$csv_data_dir/$user_data")) {
 	fclose($file);
 }
 if (!$error_messages) {
-	$to = $email;
-	$subject = "Test mail";
-	$message = "Hello! This is a test email message. Here is your login info kokot:" . $nickname;
-	$headers = "From: no_reply@fmix.sk";
-
-	$sent = mail($to, $subject, $message, $headers);
-
-	if (!$sent) {
-		array_push($error_messages, 'Nepodarilo sa odoslať poštu. Skúste to ešte raz.');
-	}
-}
-
-if (!$error_messages) {
 	$file = fopen("$csv_data_dir/$user_data", 'a');
 	fputcsv($file, [$firstname, $lastname, $nickname, $email, $school, $year_of_study], ',', '"', '\\');
 	fclose($file);
@@ -146,7 +133,7 @@ render:
 	</form>
 
 	<footer class="text-center mt-5">
-		<p>&copy; <?= date('Y') ?>  FMIX seminár web stránka. Všetky práva vyhradené. Vyrobené Vladyslavov Pyrchom.</p>
+		<p>&copy; <?= date('Y') ?>  FMIX seminár web stránka. Všetky práva vyhradené.</p>
 	</footer>
 </div>
 
