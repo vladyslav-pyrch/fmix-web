@@ -72,99 +72,171 @@ render:
 	<meta charset="UTF-8">
 	<title>FMIX - Registrácia</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="output.css" rel="stylesheet">
 	<link rel="icon" href="images/FMIX2.png">
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-	      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 
 <body>
 
-<div class="container mt-5">
-	<header class="p-3 mb-4">
-		<div class="container">
-			<a href="/" class="btn btn-secondary">Domov</a>
+<header class="header_">
+	<div class="h-full flex">
+		<div class="h-full mr-2">
+			<a href="./index.html"><img class="h-full object-contain" src="images/UIM_CLR_horizontal.png" alt="STU FEI logo"></a>
 		</div>
-	</header>
-
-	<h1 class="text-center mb-4">Registrácia</h1>
-
-	<div class="alert alert-warning" role="alert">
-		Zapamätajte si svoju prezývku, budete ju potrebovať, aby ste mohli odvzdať svoju prácu!
 	</div>
 
-	<?php if ($success_message): ?>
-		<div class="alert alert-success"> <?= htmlspecialchars($success_message) ?> </div>
-	<?php endif; ?>
+	<nav class="h-full ml-auto flex content-center overflow-y-auto text-nowrap">
+		<a href="./index.html#about_us" class="link-button " onclick="toggleOnSection('about_us_content')">
+			<span>O nas</span>
+		</a>
+		<a href="./index.html#rules" class="link-button" onclick="toggleOnSection('rules_content')">
+			<span>Pravidla</span>
+		</a>
+		<!--		<a href="./index.html#gallery" class="link-button" onclick="toggleOnSection('gallery_content')">-->
+		<!--			<span>Galéria</span>-->
+		<!--		</a>-->
+		<!--		<a href="./index.html#preparing" class="link-button" onclick="toggleOnSection('preparing_content')">-->
+		<!--			<span>Pripravujeme</span>-->
+		<!--		</a>-->
+		<a href="registration.php" class="link-button">
+			<span>Registracia</span>
+		</a>
+		<a href="submission.php" class="link-button">
+			<span>Odovzdavanie</span>
+		</a>
+	</nav>
+</header>
 
-	<?php if ($error_messages): ?>
-		<?php foreach ($error_messages as $error_message): ?>
-			<div class="alert alert-danger">
-				<?= htmlspecialchars($error_message) ?>
+<main class="main_">
+	<section class="section flex justify-center content-center overflow-y-auto">
+		<div class="content max-md:w-full md:w-2/3 h-fit flex flex-col content-center">
+			<div class="bg-purple-heart notification">
+				<svg class="h-6 w-6 mr-3" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+					<path stroke-linecap="round" stroke-linejoin="round" d="M10.29 3.86L1.82 12.32a2 2 0 000 2.83l8.47 8.47a2 2 0 002.83 0l8.47-8.47a2 2 0 000-2.83l-8.47-8.47a2 2 0 00-2.83 0z"></path>
+					<path stroke-linecap="round" stroke-linejoin="round" d="M12 9v4m0 4h.01"></path>
+				</svg>
+				<span>
+					Zapamätajte si svoju prezývku, budete ju potrebovať, aby ste mohli odvzdať svoju prácu!
+				</span>
 			</div>
-		<?php endforeach; ?>
-	<?php endif; ?>
 
-	<form method="post" action="" class="shadow p-4 bg-light rounded">
-		<div class="mb-3">
-			<label for="firstname" class="form-label">Meno</label>
-			<input type="text" id="firstname" name="firstname" placeholder="Meno" class="form-control"
-			       value="<?= htmlspecialchars($firstname ?? '') ?>" required>
+			<?php if ($success_message): ?>
+				<div class="bg-cobalt notification">
+					<svg class="h-6 w-6 mr-3" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+						<path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+					</svg>
+					<span><?= htmlspecialchars($success_message) ?></span>
+				</div>
+			<?php endif; ?>
+
+			<?php if ($error_messages): ?>
+				<?php foreach ($error_messages as $error_message): ?>
+					<div class="bg-violet-eggplant notification">
+						<svg class="h-6 w-6 mr-3" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+							<path stroke-linecap="round" stroke-linejoin="round" d="M18.364 5.636l-12.728 12.728m0-12.728l12.728 12.728"></path>
+						</svg>
+						<span><?= htmlspecialchars($error_message) ?></span>
+					</div>
+				<?php endforeach; ?>
+			<?php endif; ?>
+
+			<form method="post" action="" class="w-full form_">
+				<h2 class="text-2xl font-bold mb-4 text-center">Registrácia</h2>
+
+				<div class="form_block">
+					<label for="firstname" class="form_label">Meno</label>
+					<input id="firstname" name="firstname" type="text" placeholder="Meno" class="form_input"
+					       value="<?= htmlspecialchars($firstname ?? '') ?>" required>
+				</div>
+
+				<div class="form_block">
+					<label for="lastname" class="form_label">Priezvisko</label>
+					<input id="lastname" name="lastname" type="text" placeholder="Priezvisko" class="form_input"
+					       value="<?= htmlspecialchars($lastname ?? '') ?>" required>
+				</div>
+
+				<div class="form_block">
+					<label for="nickname" class="form_label">Prezývka</label>
+					<input id="nickname" name="nickname" type="text" placeholder="Prezývka" class="form_input"
+					       value="<?= htmlspecialchars($nickname ?? '') ?>" required>
+				</div>
+
+				<div class="form_block">
+					<label for="discord_nickname" class="form_label">Discord</label>
+					<input id="discord_nickname" name="discord_nickname" type="text" placeholder="Discord" class="form_input"
+					       value="<?= htmlspecialchars($discord_nickname ?? '') ?>" required>
+				</div>
+
+				<div class="form_block">
+					<label for="email" class="form_label">Mail</label>
+					<input id="email" name="email" type="text" placeholder="Mail" class="form_input"
+					       value="<?= htmlspecialchars($email ?? '') ?>" required>
+				</div>
+
+				<div class="form_block">
+					<label for="school" class="form_label">Škola</label>
+					<input id="school" name="school" type="text" placeholder="Škola" class="form_input"
+					       value="<?= htmlspecialchars($school ?? '') ?>" required>
+				</div>
+
+				<div class="form_block">
+					<label for="year_of_study" class="form_label">Navštevovaný ročník</label>
+					<select type="number" id="year_of_study" name="year_of_study" placeholder="Navštevovaný ročník"
+					        class="form_input" min="1" max="4" value="<?= htmlspecialchars($year_of_study ?? '') ?>" required>
+						<option value="">--Select--</option>
+						<option value="1" <?= $year_of_study == 1 ? 'selected' : '' ?>>1</option>
+						<option value="2" <?= $year_of_study == 2 ? 'selected' : '' ?>>2</option>
+						<option value="3" <?= $year_of_study == 3 ? 'selected' : '' ?>>3</option>
+						<option value="4" <?= $year_of_study == 4 ? 'selected' : '' ?>>4</option>
+					</select>
+				</div>
+
+				<button type="submit" class="form_submit">Zaregistrovať sa</button>
+
+			</form>
+
+		</div>
+	</section>
+</main>
+
+<footer class="footer_">
+	<div class="w-full flex flex-row">
+		<div class="md:flex-row max-md:flex-col flex">
+			<div class="mr-2 ">
+				<address>
+					Fakulta elektrotechniky a informatiky,<br>
+					Ústav informatiky a matematiky,<br>
+					Ilkovičova 3,<br>
+					841 04 Bratislava,<br>
+					Slovakia
+				</address>
+			</div>
 		</div>
 
-		<div class="mb-3">
-			<label for="lastname" class="form-label">Priezvisko</label>
-			<input type="text" id="lastname" name="lastname" placeholder="Priezvisko" class="form-control"
-			       value="<?= htmlspecialchars($lastname ?? '') ?>" required>
+		<div class="ml-auto flex flex-col">
+			<div class="w-12 ml-auto h-full flex flex-col justify-start text-end">
+				<div class="w-full">
+					<img class="w-full" src="images/logoFarebne.png" alt="SPEAI logo">
+				</div>
+				<a target="_blank" href="https://discord.gg/F2yjRggQ">
+					<img class="w-full" src="images/discord-logo.png" alt="Discord">
+				</a>
+			</div>
+
+			<div>
+				<a href="mailto:some@mail.com">some@mail.com</a>
+			</div>
 		</div>
+	</div>
 
-		<div class="mb-3">
-			<label for="nickname" class="form-label">Prezývka</label>
-			<input type="text" id="nickname" name="nickname" placeholder="Prezývka" class="form-control"
-			       value="<?= htmlspecialchars($nickname ?? '') ?>" required>
-		</div>
+	<div class="flex justify-center items-center text-center">
+		<span>
+			© 2025 FMIX seminár web stránka. Všetky práva vyhradené.
+		</span>
+	</div>
+</footer>
 
-		<div class="mb-3">
-			<label for="discord_nickname" class="form-label">Discord</label>
-			<input type="text" id="discord_nickname" name="discord_nickname" placeholder="Discord" class="form-control"
-			       value="<?= htmlspecialchars($discord_nickname ?? '') ?>" required>
-		</div>
-
-		<div class="mb-3">
-			<label for="email" class="form-label">Mail</label>
-			<input type="text" id="email" name="email" placeholder="Mail" class="form-control"
-			       value="<?= htmlspecialchars($email ?? '') ?>" required>
-		</div>
-
-		<div class="mb-3">
-			<label for="school" class="form-label">Škola</label>
-			<input type="text" id="school" name="school" placeholder="Škola" class="form-control"
-			       value="<?= htmlspecialchars($school ?? '') ?>" required>
-		</div>
-
-		<div class="mb-3">
-			<label for="year_of_study" class="form-label">Navštevovaný ročník</label>
-			<select type="number" id="year_of_study" name="year_of_study" placeholder="Navštevovaný ročník"
-			        class="form-control" min="1" max="4" value="<?= htmlspecialchars($year_of_study ?? '') ?>" required>
-				<option value="">--Select--</option>
-				<option value="1" <?= $year_of_study == 1 ? 'selected' : '' ?>>1</option>
-				<option value="2" <?= $year_of_study == 2 ? 'selected' : '' ?>>2</option>
-				<option value="3" <?= $year_of_study == 3 ? 'selected' : '' ?>>3</option>
-				<option value="4" <?= $year_of_study == 4 ? 'selected' : '' ?>>4</option>
-			</select>
-		</div>
-
-		<button type="submit" class="btn btn-primary w-100">Zaregistrovať sa</button>
-
-	</form>
-
-	<footer class="text-center mt-5">
-		<p>&copy; <?= date('Y') ?>  FMIX seminár web stránka. Všetky práva vyhradené.</p>
-	</footer>
-</div>
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"></script>
+<script src="scripts.js"></script>
 </body>
 
 </html>

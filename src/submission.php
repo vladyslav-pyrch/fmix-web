@@ -72,6 +72,7 @@ if (move_uploaded_file($file['tmp_name'], $target_path)) {
 
 render:
 ?>
+
 <!DOCTYPE html>
 <html lang="sk">
 
@@ -79,59 +80,121 @@ render:
 	<meta charset="UTF-8">
 	<title>FMIX - Odovzdanie zadania</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="output.css" rel="stylesheet">
 	<link rel="icon" href="images/FMIX2.png">
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-	      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 
 <body>
-
-<div class="container mt-5">
-	<header class="p-3 mb-4">
-		<div class="container">
-			<a href="/" class="btn btn-secondary">Domov</a>
+<header class="header_">
+	<div class="h-full flex">
+		<div class="h-full mr-2">
+			<a href="./index.html"><img class="h-full object-contain" src="images/UIM_CLR_horizontal.png" alt="STU FEI logo"></a>
 		</div>
-	</header>
+	</div>
 
-	<h1 class="text-center mb-4">Odovzdanie zadania</h1>
+	<nav class="h-full ml-auto flex content-center overflow-y-auto text-nowrap">
+		<a href="./index.html#about_us" class="link-button " onclick="toggleOnSection('about_us_content')">
+			<span>O nas</span>
+		</a>
+		<a href="./index.html#rules" class="link-button" onclick="toggleOnSection('rules_content')">
+			<span>Pravidla</span>
+		</a>
+		<!--		<a href="./index.html#gallery" class="link-button" onclick="toggleOnSection('gallery_content')">-->
+		<!--			<span>Galéria</span>-->
+		<!--		</a>-->
+		<!--		<a href="./index.html#preparing" class="link-button" onclick="toggleOnSection('preparing_content')">-->
+		<!--			<span>Pripravujeme</span>-->
+		<!--		</a>-->
+		<a href="registration.php" class="link-button">
+			<span>Registracia</span>
+		</a>
+		<a href="submission.php" class="link-button">
+			<span>Odovzdavanie</span>
+		</a>
+	</nav>
+</header>
 
-	<?php if ($success_message): ?>
-		<div class="alert alert-success"> <?= htmlspecialchars($success_message) ?> </div>
-	<?php endif; ?>
+<main class="main_">
+	<section class="section flex justify-center content-center overflow-y-auto">
+		<div class="content max-md:w-full md:w-2/3 h-fit flex flex-col content-center">
 
-	<?php if ($error_messages): ?>
-		<?php foreach ($error_messages as $error_message): ?>
-			<div class="alert alert-danger">
-				<?= htmlspecialchars($error_message) ?>
+			<?php if ($success_message): ?>
+				<div class="bg-cobalt notification">
+					<svg class="h-6 w-6 mr-3" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+						<path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+					</svg>
+					<span><?= htmlspecialchars($success_message) ?></span>
+				</div>
+			<?php endif; ?>
+
+			<?php if ($error_messages): ?>
+				<?php foreach ($error_messages as $error_message): ?>
+					<div class="bg-violet-eggplant notification">
+						<svg class="h-6 w-6 mr-3" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+							<path stroke-linecap="round" stroke-linejoin="round" d="M18.364 5.636l-12.728 12.728m0-12.728l12.728 12.728"></path>
+						</svg>
+						<span><?= htmlspecialchars($error_message) ?></span>
+					</div>
+				<?php endforeach; ?>
+			<?php endif; ?>
+
+			<form method="post" action="" enctype="multipart/form-data" class="w-full form_">
+				<h2 class="text-2xl font-bold mb-4 text-center">Odovzdanie zadania</h2>
+				<div class="form_block">
+					<label for="nickname" class="form_label">Prezývka</label>
+					<input id="nickname" name="nickname" type="text" placeholder="Prezývka" class="form_input"
+					       value="<?= htmlspecialchars($nickname ?? '') ?>" required>
+				</div>
+				<div class="form_block">
+					<label for="file" class="form_label">Nahrať súbor</label>
+					<input id="file" name="file" type="file" placeholder="Nahrať súbor" class="form_input" required>
+				</div>
+
+				<button type="submit" class="form_submit">Odovzdať</button>
+			</form>
+
+		</div>
+	</section>
+</main>
+
+<footer class="footer_">
+	<div class="w-full flex flex-row">
+		<div class="md:flex-row max-md:flex-col flex">
+			<div class="mr-2 ">
+				<address>
+					Fakulta elektrotechniky a informatiky,<br>
+					Ústav informatiky a matematiky,<br>
+					Ilkovičova 3,<br>
+					841 04 Bratislava,<br>
+					Slovakia
+				</address>
 			</div>
-		<?php endforeach; ?>
-	<?php endif; ?>
-
-	<form method="post" action="" enctype="multipart/form-data" class="shadow p-4 bg-light rounded">
-
-		<div class="mb-3">
-			<label for="nickname" class="form-label">Prezývka</label>
-			<input type="text" id="nickname" name="nickname" placeholder="Prezývka" class="form-control"
-			       value="<?= htmlspecialchars($nickname ?? '') ?>" required>
 		</div>
 
-		<div class="mb-3">
-			<label for="file" class="form-label">Nahrať súbor</label>
-			<input type="file" id="file" name="file" placeholder="Nahrať súbor" class="form-control" required>
+		<div class="ml-auto flex flex-col">
+			<div class="w-12 ml-auto h-full flex flex-col justify-start text-end">
+				<div class="w-full">
+					<img class="w-full" src="images/logoFarebne.png" alt="SPEAI logo">
+				</div>
+				<a target="_blank" href="https://discord.gg/F2yjRggQ">
+					<img class="w-full" src="images/discord-logo.png" alt="Discord">
+				</a>
+			</div>
+
+			<div>
+				<a href="mailto:some@mail.com">some@mail.com</a>
+			</div>
 		</div>
+	</div>
 
-		<button type="submit" class="btn btn-primary w-100">Odovzdať</button>
+	<div class="flex justify-center items-center text-center">
+		<span>
+			© 2025 FMIX seminár web stránka. Všetky práva vyhradené.
+		</span>
+	</div>
+</footer>
 
-	</form>
-
-	<footer class="text-center mt-5">
-		<p>&copy; <?= date('Y') ?>  FMIX seminár web stránka. Všetky práva vyhradené.</p>
-	</footer>
-</div>
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"></script>
+<script src="scripts.js"></script>
 </body>
 
 </html>
