@@ -1,12 +1,13 @@
 ﻿Before editing, run   
 `npm install -i`  
-then run   
+Then run   
 `npx tailwindcss -i ./src/input.css -o ./src/output.css --watch`
-and to build docker image run  
-`docker build -t 'fmix-web' .`  
-to run docker container run  
-`docker run -d -p 5000:80 --name 'fmix-web' 'fmix-web'`  
-to stop docker container run  
-`docker stop 'fmix-web'`  
-to remove container run  
-`docker rm 'fmix-web'`
+To update styles in real time. Do not edit output.css.  
+To build docker image run  
+`docker build -t fmix-web .`  
+To run docker container run  
+`docker run -d -p 5000:80 --name fmix-web fmix-web`  
+To stop docker container run  
+`docker stop fmix-web`  
+To remove container run  
+`docker rm fmix-web`
