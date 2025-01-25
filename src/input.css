@@ -47,7 +47,7 @@
     }
     
     .header_ {
-        @apply flex bg-gray-300 h-12 w-full fixed top-0 left-0 z-10
+        @apply flex bg-light-blue h-12 w-full fixed top-0 left-0 z-10
     }
     
     .main_ {
@@ -55,7 +55,7 @@
     }
     
     .footer_ {
-        @apply bg-gray-300 h-44 py-3.5 px-9 w-full fixed bottom-0 left-0 z-10 overflow-y-auto
+        @apply bg-light-blue h-44 py-3.5 px-9 w-full fixed bottom-0 left-0 z-10 overflow-y-auto
     }
     
     .notification {

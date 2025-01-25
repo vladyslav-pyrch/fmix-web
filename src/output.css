@@ -634,7 +634,7 @@ ul {
   height: 3rem;
   width: 100%;
   --tw-bg-opacity: 1;
-  background-color: rgb(209 213 219 / var(--tw-bg-opacity, 1));
+  background-color: rgb(205 216 237 / var(--tw-bg-opacity, 1));
 }
 
 .main_ {
@@ -655,7 +655,7 @@ ul {
   width: 100%;
   overflow-y: auto;
   --tw-bg-opacity: 1;
-  background-color: rgb(209 213 219 / var(--tw-bg-opacity, 1));
+  background-color: rgb(205 216 237 / var(--tw-bg-opacity, 1));
   padding-top: 0.875rem;
   padding-bottom: 0.875rem;
   padding-left: 2.25rem;

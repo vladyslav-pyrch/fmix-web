@@ -9,7 +9,8 @@ module.exports = {
 				'violet-eggplant': '#a706a6',
 				'catalina-blue': '#042b76',
 				meteorite: '#3e2278',
-				'cardinal-pink': '#750474'
+				'cardinal-pink': '#750474',
+				'light-blue': '#CDD8ED'
 			}
 		},
 	},
