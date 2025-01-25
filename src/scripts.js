@@ -1,8 +1,7 @@
-﻿const section_content_id_list = ["about_us_content", "rules_content", "gallery_content", "preparing_content"]
-
-function toggleOnSection(id) {
-    section_content_id_list.forEach(section_id => {
-        const section_content = document.getElementById(section_id);
+﻿function toggleOnSection(id) {
+    const section_contents = document.querySelectorAll("[id*='_content']")
+    
+    section_contents.forEach(section_content => {
         if (section_content.classList.contains('show')) {
             section_content.classList.remove('show');
             setTimeout(() => sectionContent.classList.add('hide'), 100);
