@@ -17,11 +17,8 @@
 	</div>
 
 	<nav class="h-full ml-auto flex content-center overflow-y-auto text-nowrap">
-		<a href="./index.html#about_us" class="link-button " onclick="toggleOnSection('about_us_content')">
-			<span>O nas</span>
-		</a>
-		<a href="./index.html#rules" class="link-button" onclick="toggleOnSection('rules_content')">
-			<span>Pravidla</span>
+		<a href="./index.html" class="link-button ">
+			<span>Domov</span>
 		</a>
 		<!--		<a href="./index.html#gallery" class="link-button" onclick="toggleOnSection('gallery_content')">-->
 		<!--			<span>Galéria</span>-->
@@ -38,8 +35,8 @@
 	</nav>
 </header>
 
-<main class="main_">
-	<section class="section flex justify-center content-center overflow-y-auto">
+<main class="main_ overflow-y-auto">
+	<section class="section flex justify-center content-center">
 		<div class="content max-md:w-full md:w-2/3 h-fit flex flex-col content-center"> 
 			<!-- Success Notification -->
 			<div class="bg-cobalt notification">
@@ -99,44 +96,46 @@
 			</form>
 		</div>
 	</section>
-</main>
 
-<footer class="footer_">
-	<div class="w-full flex flex-row">
-		<div class="md:flex-row max-md:flex-col flex">
-			<div class="mr-2 ">
-				<address>
-					Fakulta elektrotechniky a informatiky,<br>
-					Ústav informatiky a matematiky,<br>
-					Ilkovičova 3,<br>
-					841 04 Bratislava,<br>
-					Slovakia
-				</address>
-			</div>
-		</div>
-
-		<div class="ml-auto flex flex-col">
-			<div class="w-12 ml-auto h-full flex flex-col justify-start text-end">
-				<div class="w-full">
-					<img class="w-full" src="images/logoFarebne.png" alt="SPEAI logo">
+	<footer class="footer_">
+		<div class="w-full bg-light-blue py-3.5 px-9">
+			<div class="w-full flex flex-row">
+				<div class="md:flex-row max-md:flex-col flex">
+					<div class="mr-2 ">
+						<address>
+							Fakulta elektrotechniky a informatiky,<br>
+							Ústav informatiky a matematiky,<br>
+							Ilkovičova 3,<br>
+							841 04 Bratislava,<br>
+							Slovakia
+						</address>
+					</div>
 				</div>
-				<a target="_blank" href="https://discord.gg/F2yjRggQ">
-					<img class="w-full" src="images/discord-logo.png" alt="Discord">
-				</a>
+
+				<div class="ml-auto flex flex-col">
+					<div class="w-12 ml-auto h-full flex flex-col justify-start text-end">
+						<div class="w-full">
+							<img class="w-full" src="images/logoFarebne.png" alt="SPEAI logo">
+						</div>
+						<a target="_blank" href="https://discord.gg/F2yjRggQ">
+							<img class="w-full" src="images/discord-logo.png" alt="Discord">
+						</a>
+					</div>
+
+					<div>
+						<a href="mailto:some@mail.com">some@mail.com</a>
+					</div>
+				</div>
 			</div>
 
-			<div>
-				<a href="mailto:some@mail.com">some@mail.com</a>
-			</div>
-		</div>
-	</div>
-
-	<div class="flex justify-center items-center text-center">
+			<div class="flex justify-center items-center text-center">
 		<span>
 			© 2025 FMIX seminár web stránka. Všetky práva vyhradené.
 		</span>
-	</div>
-</footer>
+			</div>
+		</div>
+	</footer>
+</main>
 
 <script src="scripts.js"></script>
 </body>

@@ -36,14 +36,14 @@
     }
     
     .section {
-        @apply pt-12 pb-44 w-full transition-transform h-screen overflow-y-auto;
+        @apply pt-12 pb-2 w-full transition-transform;
     }
     
     .section .content {
         @apply px-6 pt-4 pb-1.5;
     } 
-    .section .header {
-        @apply px-6 pb-4 pt-1.5
+    .section .section_header {
+        @apply px-6 pb-4 pt-1.5 font-thin text-2xl hover:bg-gray-300
     }
     
     .header_ {
@@ -51,11 +51,11 @@
     }
     
     .main_ {
-        @apply flex-1 flex flex-col overflow-y-hidden w-full min-h-screen
+        @apply flex flex-col w-full h-screen overflow-y-auto   
     }
     
     .footer_ {
-        @apply bg-light-blue h-44 py-3.5 px-9 w-full fixed bottom-0 left-0 z-10 overflow-y-auto
+        @apply w-full flex-grow flex flex-col justify-end
     }
     
     .notification {
