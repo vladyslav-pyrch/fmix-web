@@ -78,7 +78,7 @@ render:
 
 <head>
 	<meta charset="UTF-8">
-	<title>FMIX - Odovzdanie zadania</title>
+	<title>FMIX - Odovzdávanie zadania</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href="output.css" rel="stylesheet">
 	<link rel="icon" href="images/FMIX2.png">
@@ -106,7 +106,7 @@ render:
 			<span>Registracia</span>
 		</a>
 		<a href="submission.php" class="link-button">
-			<span>Odovzdavanie</span>
+			<span>Odovzdávanie</span>
 		</a>
 	</nav>
 </header>
@@ -136,7 +136,7 @@ render:
 			<?php endif; ?>
 
 			<form method="post" action="" enctype="multipart/form-data" class="w-full form_">
-				<h2 class="text-2xl font-bold mb-4 text-center">Odovzdanie zadania</h2>
+				<h2 class="text-2xl font-bold mb-4 text-center">Odovzdávanie zadania</h2>
 				<div class="form_block">
 					<label for="nickname" class="form_label">Prezývka</label>
 					<input id="nickname" name="nickname" type="text" placeholder="Prezývka" class="form_input"

@@ -96,10 +96,10 @@ render:
 		<!--			<span>Pripravujeme</span>-->
 		<!--		</a>-->
 		<a href="registration.php" class="link-button">
-			<span>Registracia</span>
+			<span>Registrácia</span>
 		</a>
 		<a href="submission.php" class="link-button">
-			<span>Odovzdavanie</span>
+			<span>Odovzdávanie</span>
 		</a>
 	</nav>
 </header>

@@ -24,17 +24,17 @@
 		<button class="link-button" onclick="scrollToAndToggleOn('rules')">
 			<span>Pravidlá</span>
 		</button>
-		<!--		<a href="#gallery" class="link-button" onclick="toggleOnSection('gallery_content')">-->
-		<!--			<span>Galéria</span>-->
-		<!--		</a>-->
+		<button  class="link-button" onclick="scrollToAndToggleOn('gallery')">
+			<span>Galéria</span>
+		</button>
 		<!--		<a href="#preparing" class="link-button" onclick="toggleOnSection('preparing_content')">-->
 		<!--			<span>Pripravujeme</span>-->
 		<!--		</a>-->
 		<a href="registration.php" class="link-button">
-			<span>Registracia</span>
+			<span>Registrácia</span>
 		</a>
 		<a href="submission.php" class="link-button">
-			<span>Odovzdavanie</span>
+			<span>Odovzdávanie</span>
 		</a>
 	</nav>
 </header>
@@ -402,16 +402,28 @@
 		</div>
 	</section>
 
-		<section id="gallery" class="section">
-			<div class="section_header" onclick="scrollToAndToggleOn('gallery')">
-				<h2>Galéria</h2>
-			</div>
-			<div id="gallery_content" class="toggle-content hide content">
-				<div>
-					Content
+	<section id="gallery" class="section">
+		<div class="section_header" onclick="scrollToAndToggleOn('gallery')">
+			<h2>Galéria</h2>
+		</div>
+		<div id="gallery_content" class="toggle-content hide content p-5 sm:p-8">
+				<div class="gallery_section">
+					<div class="header">
+						<h1>Letný seminár 2024</h1>
+					</div>
+					<div class="content">
+						<img src="gallery/image.jpg">
+						<img src="gallery/burns.jpg">
+						<img src="gallery/grill.jpg">
+						<img src="gallery/image2.jpg">
+						<img src="gallery/playing.jpg">
+						<img src="gallery/sousages.jpg">
+						<img src="gallery/image.jpg">
+						<img src="gallery/playing.jpg">
+					</div>
 				</div>
-			</div>
-		</section>
+		</div>
+	</section>
 
 	<!--	<section id="preparing" class="section">-->
 	<!--		<div class="section_header">-->
@@ -422,7 +434,7 @@
 	<!--		</div>-->
 	<!--	</section>-->
 	<footer class="footer_">
-		<div class="w-full bg-light-blue py-3.5 px-9">
+		<div class="content">
 			<div class="w-full flex flex-row">
 				<div class="md:flex-row max-md:flex-col flex">
 					<div class="mr-2 ">
