@@ -558,6 +558,15 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  display: flex;
+  min-height: 100vh;
+  width: 100%;
+  flex-direction: column;
+  align-content: center;
+  overflow-y: auto;
+}
+
 ol {
   list-style-position: outside;
   list-style-type: decimal;
@@ -645,10 +654,10 @@ ul {
 
 .main_ {
   display: flex;
-  height: 100vh;
+  height: -moz-fit-content;
+  height: fit-content;
   width: 100%;
   flex-direction: column;
-  overflow-y: auto;
 }
 
 .footer_ {
@@ -884,6 +893,10 @@ ul {
   height: 100%;
 }
 
+.min-h-screen {
+  min-height: 100vh;
+}
+
 .w-12 {
   width: 3rem;
 }
@@ -894,10 +907,6 @@ ul {
 
 .w-full {
   width: 100%;
-}
-
-.w-screen {
-  width: 100vw;
 }
 
 .table-auto {
@@ -932,12 +941,12 @@ ul {
   justify-content: center;
 }
 
-.overflow-y-auto {
-  overflow-y: auto;
+.overflow-x-auto {
+  overflow-x: auto;
 }
 
-.overflow-x-hidden {
-  overflow-x: hidden;
+.overflow-y-auto {
+  overflow-y: auto;
 }
 
 .text-nowrap {

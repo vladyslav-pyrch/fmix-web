@@ -77,7 +77,6 @@ render:
 </head>
 
 <body>
-
 <header class="header_">
 	<div class="h-full flex">
 		<div class="h-full mr-2">
@@ -194,6 +193,8 @@ render:
 
 		</div>
 	</section>
+</main>
+
 	<footer class="footer_">
 		<div class="w-full bg-light-blue py-3.5 px-9">
 			<div class="w-full flex flex-row">
@@ -232,7 +233,6 @@ render:
 			</div>
 		</div>
 	</footer>
-</main>
 
 <script src="scripts.js"></script>
 </body>

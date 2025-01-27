@@ -153,8 +153,10 @@ render:
 		</div>
 	</section>
 
+</main>
+
 	<footer class="footer_">
-		<div class="w-full bg-light-blue py-3.5 px-9">
+		<div class="content">
 			<div class="w-full flex flex-row">
 				<div class="md:flex-row max-md:flex-col flex">
 					<div class="mr-2 ">
@@ -191,7 +193,6 @@ render:
 			</div>
 		</div>
 	</footer>
-</main>
 
 <script src="scripts.js"></script>
 </body>
