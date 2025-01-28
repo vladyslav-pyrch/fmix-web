@@ -220,7 +220,7 @@ render:
 		<div class="part">
 			<h1 class="text-xl">Partners</h1>
 			<img class="w-9" src="images/speai_logo.png" alt="SPEAI logo">
-			<img class="w-9" src="images/tlis_logo.png" alt="TLIS logo">
+			<!--			<img class="w-9" src="images/tlis_logo.png" alt="TLIS logo">-->
 		</div>
 		
 		<div class="part">
