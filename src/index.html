@@ -6,14 +6,14 @@
 	<title>FMIX</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href="output.css" rel="stylesheet">
-	<link rel="icon" href="images/FMIX2.png">
+	<link rel="icon" href="images/fmix.png">
 </head>
 
 <body>
 <header class="header_">
 	<div class="h-full flex">
 		<div class="h-full mr-2">
-			<a href="./index.html"><img class="h-full object-contain" src="images/UIM_CLR_horizontal.png" alt="STU FEI logo"></a>
+			<a href="./index.html"><img class="h-full object-contain" src="images/stu_fei_uim.png" alt="STU FEI logo"></a>
 		</div>
 	</div>
 
@@ -24,7 +24,7 @@
 		<button class="link-button" onclick="scrollToAndToggleOn('rules')">
 			<span>Pravidlá</span>
 		</button>
-		<button  class="link-button" onclick="scrollToAndToggleOn('gallery')">
+		<button class="link-button" onclick="scrollToAndToggleOn('gallery')">
 			<span>Galéria</span>
 		</button>
 		<!--		<a href="#preparing" class="link-button" onclick="toggleOnSection('preparing_content')">-->
@@ -42,19 +42,19 @@
 <main class="main_">
 	<section id="home" class="section">
 		<div class="w-full pt-2">
-			<div class="w-full"><img class="w-full" src="images/CelyNazov.png" alt="full name"></div>
+			<div class="w-full"><img class="w-full" src="images/fmix_fullname.png" alt="full name"></div>
 		</div>
 	</section>
-	
+
 	<section id="about_us" class="section">
 		<div class="section_header" onclick="scrollToAndToggleOn('about_us')">
 			<h2>O nás</h2>
 		</div>
-<!--		<div class="h-80 w-full flex justify-center content-center items-center bg-cover bg-left-top text-gray-300"-->
-<!--		     style="background-image: url('images/baner.png')">-->
-<!--			<h1 class="text-7xl font-bold">Vitajte na FMIX!</h1>-->
-<!--		</div>-->
-		
+		<!--		<div class="h-80 w-full flex justify-center content-center items-center bg-cover bg-left-top text-gray-300"-->
+		<!--		     style="background-image: url('images/baner.png')">-->
+		<!--			<h1 class="text-7xl font-bold">Vitajte na FMIX!</h1>-->
+		<!--		</div>-->
+
 		<div id="about_us_content" class="toggle-content hide content w-full ">
 			<div class="float-right mr-2.5 max-md:w-full md:w-1/2 ">
 				<img class="object-cover w-full rounded-xl" src="images/FEI_DOD-4.png" alt="dod image">
@@ -113,7 +113,7 @@
 			<h2>Pravidlá</h2>
 		</div>
 		<div id="rules_content" class="toggle-content hide content">
-			<div class="border-l-2 border-l-gray-500 border-opacity-25 pl-1.5">
+			<div>
 				<span class="font-bold text-lg">Preambula</span>
 				<br>
 				<span>
@@ -407,21 +407,21 @@
 			<h2>Galéria</h2>
 		</div>
 		<div id="gallery_content" class="toggle-content hide content p-5 sm:p-8">
-				<div class="gallery_section">
-					<div class="header">
-						<h1>Letný seminár 2024</h1>
-					</div>
-					<div class="content">
-						<img src="gallery/image.jpg">
-						<img src="gallery/burns.jpg">
-						<img src="gallery/grill.jpg">
-						<img src="gallery/image2.jpg">
-						<img src="gallery/playing.jpg">
-						<img src="gallery/sousages.jpg">
-						<img src="gallery/image.jpg">
-						<img src="gallery/playing.jpg">
-					</div>
+			<div class="gallery_section">
+				<div class="header">
+					<h1>Letný seminár 2024</h1>
 				</div>
+				<div class="content">
+					<img src="gallery/image.jpg">
+					<img src="gallery/burns.jpg">
+					<img src="gallery/grill.jpg">
+					<img src="gallery/image2.jpg">
+					<img src="gallery/playing.jpg">
+					<img src="gallery/sousages.jpg">
+					<img src="gallery/image.jpg">
+					<img src="gallery/playing.jpg">
+				</div>
+			</div>
 		</div>
 	</section>
 
@@ -436,39 +436,40 @@
 </main>
 <footer class="footer_">
 	<div class="content">
-		<div class="w-full flex flex-row">
-			<div class="md:flex-row max-md:flex-col flex">
-				<div class="mr-2 ">
-					<address>
-						Fakulta elektrotechniky a informatiky,<br>
-						Ústav informatiky a matematiky,<br>
-						Ilkovičova 3,<br>
-						841 04 Bratislava,<br>
-						Slovakia
-					</address>
-				</div>
-			</div>
-
-			<div class="ml-auto flex flex-col">
-				<div class="w-12 ml-auto h-full flex flex-col justify-start text-end">
-					<div class="w-full">
-						<img class="w-full" src="images/logoFarebne.png" alt="SPEAI logo">
-					</div>
-					<a target="_blank" href="https://discord.gg/F2yjRggQ">
-						<img class="w-full" src="images/discord-logo.png" alt="Discord">
-					</a>
-				</div>
-
-				<div>
-					<a href="mailto:some@mail.com">some@mail.com</a>
-				</div>
-			</div>
+		<div class="part">
+			<h1 class="text-xl">Address</h1>
+			<address>
+				Fakulta elektrotechniky a informatiky,<br>
+				Ústav informatiky a matematiky,<br>
+				Ilkovičova 3,<br>
+				841 04 Bratislava,<br>
+				Slovakia
+			</address>
 		</div>
 
-		<div class="flex justify-center items-center text-center">
-		<span>
-			© 2025 FMIX seminár web stránka. Všetky práva vyhradené.
-		</span>
+		<div class="part">
+			<h1 class="text-xl">Links</h1>
+			<a class="flex justify-center" target="_blank" href="mailto:some@mail.com">
+				<svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none">
+					<path fill-rule="evenodd" clip-rule="evenodd"
+					      d="M3.75 5.25L3 6V18L3.75 18.75H20.25L21 18V6L20.25 5.25H3.75ZM4.5 7.6955V17.25H19.5V7.69525L11.9999 14.5136L4.5 7.6955ZM18.3099 6.75H5.68986L11.9999 12.4864L18.3099 6.75Z"
+					      fill="#080341"/>
+				</svg>
+				some@mail.com
+			</a>
+			<a class="flex justify-center" target="_blank" href="https://discord.gg/F2yjRggQ">
+				<img class="h-6" src="images/discord_logo.png" alt="Discord"> Discord
+			</a>
+		</div>
+
+		<div class="part">
+			<h1 class="text-xl">Partners</h1>
+			<img class="w-9" src="images/speai_logo.png" alt="SPEAI logo">
+<!--			<img class="w-9" src="images/tlis_logo.png" alt="TLIS logo">-->
+		</div>
+
+		<div class="part">
+			© 2025 FMIX seminár web stránka.<br/> Všetky práva vyhradené.
 		</div>
 	</div>
 </footer>
