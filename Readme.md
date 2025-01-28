@@ -1,6 +1,6 @@
-﻿Before editing, run   
+﻿To build styles run   
 `npm install -i`  
-Then run   
+And run   
 `npx tailwindcss -i ./src/input.css -o ./src/output.css --watch`
 To update styles in real time. Do not edit output.css.  
 To build docker image run  
