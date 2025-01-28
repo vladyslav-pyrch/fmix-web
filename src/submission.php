@@ -148,11 +148,10 @@ render:
 	</section>
 
 </main>
-
 <footer class="footer_">
 	<div class="content">
 		<div class="part">
-			<h1 class="text-xl">Address</h1>
+			<h1 class="text-xl">Adresa</h1>
 			<address>
 				Fakulta elektrotechniky a informatiky,<br>
 				Ústav informatiky a matematiky,<br>
@@ -161,9 +160,9 @@ render:
 				Slovakia
 			</address>
 		</div>
-		
+
 		<div class="part">
-			<h1 class="text-xl">Links</h1>
+			<h1 class="text-xl">Linky</h1>
 			<a class="flex justify-center" target="_blank" href="mailto:some@mail.com">
 				<svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none">
 					<path fill-rule="evenodd" clip-rule="evenodd"
@@ -176,13 +175,13 @@ render:
 				<img class="h-6" src="images/discord_logo.png" alt="Discord"> Discord
 			</a>
 		</div>
-		
+
 		<div class="part">
-			<h1 class="text-xl">Partners</h1>
+			<h1 class="text-xl">Partneri</h1>
 			<img class="w-9" src="images/speai_logo.png" alt="SPEAI logo">
-			<!--			<img class="w-9" src="images/tlis_logo.png" alt="TLIS logo">-->
+<!--			<img class="w-9" src="images/tlis_logo.png" alt="TLIS logo">-->
 		</div>
-		
+
 		<div class="part">
 			© 2025 FMIX seminár web stránka.<br/> Všetky práva vyhradené.
 		</div>
