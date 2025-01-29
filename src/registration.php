@@ -73,7 +73,7 @@ render:
 	<title>FMIX - Registrácia</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href="output.css" rel="stylesheet">
-	<link rel="icon" href="images/FMIX2.png">
+	<link rel="icon" href="images/fmix.png">
 </head>
 
 <body>
