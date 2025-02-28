@@ -1,4 +1,5 @@
-﻿const delay = ms => new Promise((res) => setTimeout(res, ms))
+const delay = ms => new Promise((res) => setTimeout(res, ms))
+
 
 async function scrollToAndToggleOn(id) {
     const section_contents = document.querySelectorAll("[id*='_content']")
@@ -23,4 +24,13 @@ async function scrollToAndToggleOn(id) {
     document.getElementById(id).scrollIntoView({
         behavior: 'smooth'
     })
+}
+
+async function checkUrlHash() {
+    if (window.location.hash === '#about_us')
+        await scrollToAndToggleOn('about_us');
+    else if (window.location.hash === '#gallery')
+        await scrollToAndToggleOn('gallery');
+    else if (window.location.hash === '#rules')
+        await scrollToAndToggleOn('rules');
 }

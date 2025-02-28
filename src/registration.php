@@ -1,3 +1,4 @@
+<?php require "include_component.php"; ?>
 <?php
 $csv_data_dir = 'csv_data';
 $user_data = 'data.csv';
@@ -77,57 +78,25 @@ render:
 </head>
 
 <body>
-<header class="header_">
-	<div class="h-full flex">
-		<div class="h-full mr-2">
-			<a href="./index.html"><img class="h-full object-contain" src="images/stu_fei_uim.png" alt="STU FEI logo"></a>
-		</div>
-	</div>
-
-	<nav class="h-full ml-auto flex content-center overflow-y-auto text-nowrap">
-		<a href="./index.html" class="link-button ">
-			<span>Domov</span>
-		</a>
-		<a href="registration.php" class="link-button">
-			<span>Registrácia</span>
-		</a>
-		<a href="submission.php" class="link-button">
-			<span>Odovzdávanie</span>
-		</a>
-	</nav>
-</header>
+<?php require './components/header_component.php'; ?>
 
 <main class="main_ ">
 	<section class="section flex justify-center content-center">
 		<div class="content max-md:w-full md:w-2/3 h-fit flex flex-col content-center">
-			<div class="bg-purple-heart notification">
-				<svg class="h-6 w-6 mr-3" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-					<path stroke-linecap="round" stroke-linejoin="round" d="M10.29 3.86L1.82 12.32a2 2 0 000 2.83l8.47 8.47a2 2 0 002.83 0l8.47-8.47a2 2 0 000-2.83l-8.47-8.47a2 2 0 00-2.83 0z"></path>
-					<path stroke-linecap="round" stroke-linejoin="round" d="M12 9v4m0 4h.01"></path>
-				</svg>
-				<span>
-					Zapamätajte si svoju prezývku, budete ju potrebovať, aby ste mohli odvzdať svoju prácu!
-				</span>
-			</div>
+			<?php
+			includeComponent("./components/notifications/warning_component.php",
+				array("warning_message" => "Zapamätajte si svoju prezývku, budete ju potrebovať, aby ste mohli odvzdať svoju prácu!"));
+			?>
 
-			<?php if ($success_message): ?>
-				<div class="bg-cobalt notification">
-					<svg class="h-6 w-6 mr-3" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-						<path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-					</svg>
-					<span><?= htmlspecialchars($success_message) ?></span>
-				</div>
-			<?php endif; ?>
+			<?php if ($success_message):
+				 includeComponent('./components/notifications/success_component.php',
+					 array("success_message" => $success_message));
+			endif; ?>
 
 			<?php if ($error_messages): ?>
-				<?php foreach ($error_messages as $error_message): ?>
-					<div class="bg-violet-eggplant notification">
-						<svg class="h-6 w-6 mr-3" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-							<path stroke-linecap="round" stroke-linejoin="round" d="M18.364 5.636l-12.728 12.728m0-12.728l12.728 12.728"></path>
-						</svg>
-						<span><?= htmlspecialchars($error_message) ?></span>
-					</div>
-				<?php endforeach; ?>
+				<?php foreach ($error_messages as $error_message):
+					includeComponent('./components/notifications/error_component.php', array("error_message" => $error_message));
+				endforeach; ?>
 			<?php endif; ?>
 
 			<form method="post" action="" class="w-full form_">
@@ -188,45 +157,8 @@ render:
 		</div>
 	</section>
 </main>
-<footer class="footer_">
-	<div class="content">
-		<div class="part">
-			<h1 class="text-xl">Adresa</h1>
-			<address>
-				Fakulta elektrotechniky a informatiky,<br>
-				Ústav informatiky a matematiky,<br>
-				Ilkovičova 3,<br>
-				841 04 Bratislava,<br>
-				Slovakia
-			</address>
-		</div>
 
-		<div class="part">
-			<h1 class="text-xl">Linky</h1>
-			<a class="flex justify-center" target="_blank" href="mailto:some@mail.com">
-				<svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none">
-					<path fill-rule="evenodd" clip-rule="evenodd"
-					      d="M3.75 5.25L3 6V18L3.75 18.75H20.25L21 18V6L20.25 5.25H3.75ZM4.5 7.6955V17.25H19.5V7.69525L11.9999 14.5136L4.5 7.6955ZM18.3099 6.75H5.68986L11.9999 12.4864L18.3099 6.75Z"
-					      fill="#080341"/>
-				</svg>
-				some@mail.com
-			</a>
-			<a class="flex justify-center" target="_blank" href="https://discord.gg/F2yjRggQ">
-				<img class="h-6" src="images/discord_logo.png" alt="Discord"> Discord
-			</a>
-		</div>
-
-		<div class="part">
-			<h1 class="text-xl">Partneri</h1>
-			<img class="w-9" src="images/speai_logo.png" alt="SPEAI logo">
-<!--			<img class="w-9" src="images/tlis_logo.png" alt="TLIS logo">-->
-		</div>
-
-		<div class="part">
-			© 2025 FMIX seminár web stránka.<br/> Všetky práva vyhradené.
-		</div>
-	</div>
-</footer>
+<?php includeComponent('components/footer_component.php'); ?>
 
 <script src="scripts.js"></script>
 </body>

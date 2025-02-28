@@ -21,9 +21,11 @@ WORKDIR /var/www/html
 RUN rm /var/www/html/index.html
 
 # Copy application files to the container
-COPY ./src/images/* /var/www/html/images/
-COPY ./src/gallery/* /var/www/html/gallery/
-COPY ./src/index.html /var/www/html
+COPY ./src/images/ /var/www/html/images/
+COPY ./src/gallery/ /var/www/html/gallery/
+COPY ./src/components/ /var/www/html/components/
+COPY ./src/index.php /var/www/html
+COPY ./src/include_component.php /var/www/html
 COPY ./src/output.css /var/www/html
 COPY ./src/registration.php /var/www/html
 COPY ./src/submission.php /var/www/html

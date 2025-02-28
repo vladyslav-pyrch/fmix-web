@@ -13,3 +13,6 @@ or
 `docker stop fmix-web`  
 To remove container run  
 `docker rm fmix-web`
+
+
+TODO change discord invite link https://discord.gg/jyfvhyXxFy
