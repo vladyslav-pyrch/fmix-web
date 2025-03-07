@@ -1,11 +1,11 @@
-<header class="header_">
-    <div class="h-full flex">
-        <div class="h-full mr-2">
+<header class="header_ flex-wrap">
+    <div class="flex">
+        <div class="h-12 mr-2">
             <a href="./index.php"><img class="h-full object-contain" src="images/stu_fei_uim.png" alt="STU FEI logo"></a>
         </div>
     </div>
 
-    <nav class="h-full ml-auto flex content-center overflow-x-auto text-nowrap">
+    <nav class="h-fit ml-auto flex content-center overflow-x-auto text-nowrap">
         <a href="index.php#about_us" onclick="scrollToAndToggleOn('about_us')" class="link-button " >
             <span>O nás</span>
         </a>

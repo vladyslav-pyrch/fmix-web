@@ -20,7 +20,7 @@
 
 @layer components {
     .link-button {
-        @apply px-2 py-1 hover:bg-cobalt hover:text-white transition flex items-center justify-center
+        @apply px-2 py-1 h-12 hover:bg-cobalt hover:text-white transition flex items-center justify-center
     }
 
     .link-text {
@@ -40,7 +40,7 @@
     }
     
     .section {
-        @apply pt-12 pb-2 w-full transition-transform;
+        @apply pt-12 max-md:pt-24 pb-2 w-full transition-transform;
     }
     
     .section .content {
@@ -51,7 +51,7 @@
     }
     
     .header_ {
-        @apply flex bg-indigo-300 h-12 w-full fixed top-0 left-0 z-10
+        @apply flex bg-indigo-300 h-fit w-full fixed top-0 left-0 z-10
     }
     
     .main_ {
