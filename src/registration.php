@@ -11,9 +11,9 @@ $firstname = trim($_POST['firstname'] ?? '');
 $lastname = trim($_POST['lastname'] ?? '');
 $nickname = trim($_POST['nickname'] ?? '');
 $email = trim($_POST['email'] ?? '');
-$discord_nickname = trim($_POST['discord_nickname'] ?? '');
 $school = trim($_POST['school'] ?? '');
 $year_of_study = trim($_POST['year_of_study'] ?? '');
+$accepted = isset($_POST['accepted']);
 
 $nickname_pattern = '/^[a-zA-Z0-9._-]+$/';
 $success_message = '';
@@ -22,7 +22,11 @@ $error_messages = [];
 if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
 	goto render;
 }
-if (empty($firstname) || empty($lastname) || empty($nickname) || empty($email) || empty($discord_nickname) || empty($school) || empty($year_of_study)) {
+
+if (!$accepted) {
+	$error_messages[] = 'Ak sa chcete zaregistrovať, musíte prijať podmienky a pravidla.';
+}
+if (empty($firstname) || empty($lastname) || empty($nickname) || empty($email) || empty($school) || empty($year_of_study)) {
 	$error_messages[] = 'Všetky polia sú povinné.';
 }
 if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
@@ -36,9 +40,6 @@ if (preg_match('/\s/', $firstname)) {
 }
 if (preg_match('/\s/', $lastname)) {
 	$error_messages[] = 'Priezvisko nemôže obsahovať medzery.';
-}
-if (preg_match('/\s/', $discord_nickname)) {
-	$error_messages[] = 'Discord nickname nemôže obsahovať medzery.';
 }
 if (!preg_match($nickname_pattern, $nickname)) {
 	$error_messages[] = 'Prezývka môže obsahovať iba latinské písmená, číslice, podčiarkovník, bodku a spojovník.';
@@ -58,7 +59,7 @@ if (file_exists("$csv_data_dir/$user_data")) {
 }
 if (!$error_messages) {
 	$file = fopen("$csv_data_dir/$user_data", 'a');
-	fputcsv($file, [$firstname, $lastname, $nickname, $discord_nickname, $email, $school, $year_of_study], ',', '"', '\\');
+	fputcsv($file, [$firstname, $lastname, $nickname, $email, $school, $year_of_study], ',', '"', '\\');
 	fclose($file);
 
 	$success_message = 'Registrácia úspešná!';
@@ -121,12 +122,6 @@ render:
 				</div>
 
 				<div class="form_block">
-					<label for="discord_nickname" class="form_label">Discord</label>
-					<input id="discord_nickname" name="discord_nickname" type="text" placeholder="Discord" class="form_input"
-					       value="<?= htmlspecialchars($discord_nickname ?? '') ?>" required>
-				</div>
-
-				<div class="form_block">
 					<label for="email" class="form_label">Mail</label>
 					<input id="email" name="email" type="text" placeholder="Mail" class="form_input"
 					       value="<?= htmlspecialchars($email ?? '') ?>" required>
@@ -148,6 +143,11 @@ render:
 						<option value="3" <?= $year_of_study == 3 ? 'selected' : '' ?>>3</option>
 						<option value="4" <?= $year_of_study == 4 ? 'selected' : '' ?>>4</option>
 					</select>
+				</div>
+
+				<div class="form_block">
+					<input id="accepted" name="accepted" type="checkbox"  value="<?= htmlspecialchars($accepted ?? '') ?>" required>
+					<label for="accepted" class="font-medium text-gray-700">Prijatie <a href="index.php#rules" onclick="scrollToAndToggleOn('rules')" class="link-text">podmienok a pravidiel</a>.</label>
 				</div>
 
 				<button type="submit" class="form_submit">Zaregistrovať sa</button>

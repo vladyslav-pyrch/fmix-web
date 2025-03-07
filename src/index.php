@@ -26,6 +26,10 @@
 	<?php includeComponent("./components/sections/rules_component.php") ?>
 
 	<?php includeComponent("./components/sections/gallery_component.php") ?>
+
+	<?php includeComponent("./components/sections/assignments_component.php") ?>
+
+	<?php includeComponent("./components/sections/assignment_results_component.php") ?>
 </main>
 
 <?php includeComponent('components/footer_component.php'); ?>

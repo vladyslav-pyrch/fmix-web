@@ -33,4 +33,8 @@ async function checkUrlHash() {
         await scrollToAndToggleOn('gallery');
     else if (window.location.hash === '#rules')
         await scrollToAndToggleOn('rules');
+    else if (window.location.hash === '#assignments')
+        await scrollToAndToggleOn('assignments');
+    else if (window.location.hash === '#assignment-results')
+        await scrollToAndToggleOn('assignment-results');
 }

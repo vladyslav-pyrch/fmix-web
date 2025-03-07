@@ -1,4 +1,5 @@
 <?php require "include_component.php"; ?>
+<?php require "deadline.php"; ?>
 <?php
 $csv_data_dir = 'csv_data';
 $user_data = 'data.csv';
@@ -6,7 +7,7 @@ $submission_data = 'submission.csv';
 $upload_dir = 'uploads';
 
 $file_max_size = 10 * 1024 * 1024; // 10 MB
-$allowed_extensions = ['jpg', 'jpeg', 'png', 'pdf'];
+$allowed_extensions = ['pdf'];
 
 if (!file_exists($csv_data_dir)) {
 	mkdir($csv_data_dir, 0777, true);
@@ -24,9 +25,16 @@ if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
 	goto render;
 }
 
+$current_time = new DateTime();
+$deadline_time = Deadline::getDeadline();
+
+if ($current_time > Deadline::deadline) {
+	$error_messages[] = 'Termín na odovzdanie tejto úlohy uplynul.';
+	goto render;
+}
+
 $file = $_FILES['file'] ?? null;
 $nickname_exists = false;
-
 if (empty($nickname)) {
 	$error_messages[] = 'Prezývka je povinná.';
 }
@@ -56,12 +64,12 @@ if (!$nickname_exists) {
 }
 $file_extension = strtolower(pathinfo($file['name'], PATHINFO_EXTENSION));
 if (!in_array($file_extension, $allowed_extensions)) {
-	$error_messages[] = 'Povolené sú iba súbory jpg, jpeg, png a pdf.';
+	$error_messages[] = 'Povolené sú iba pdf súbory.';
 }
 if ($error_messages) {
 	goto render;
 }
-$target_path = "$upload_dir/" . uniqid() . ".$file_extension";
+$target_path = "$upload_dir/" . $nickname . "_" . date("Y-m-d") . ".$file_extension";
 
 if (move_uploaded_file($file['tmp_name'], $target_path)) {
 	$submission_data_file = fopen("$csv_data_dir/$submission_data", 'a');
@@ -91,6 +99,15 @@ render:
 <main class="main_">
 	<section class="section flex justify-center content-center">
 		<div class="content max-md:w-full md:w-2/3 h-fit flex flex-col content-center">
+			<?php
+			includeComponent("./components/notifications/warning_component.php",
+				array("warning_message" => "Pre aktuálne zadanie predložte len jeden súbor. Do úvahy sa bude brať len posledný predložený súbor."));
+			?>
+
+			<?php
+			includeComponent("./components/notifications/warning_component.php",
+				array("warning_message" => "Termín aktuálneho zadania je " . Deadline::deadline . "."));
+			?>
 
 			<?php if ($success_message):
 				includeComponent('./components/notifications/success_component.php',

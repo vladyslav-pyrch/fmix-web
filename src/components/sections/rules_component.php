@@ -165,6 +165,13 @@
 					</ol>
 				</li>
 				<li>
+					<span class="font-bold text-lg">Registrácia</span>
+					<ol>
+						<li>Registrovaným ľuďom sa budú zadania ďalšísh kôl posielať mailom.</li>
+						<li>Registráciou súhlasíte s tým, že výsledky budú zverejnené na webovej stránke seminára s vaším celým menom a prezývkou.</li>
+					</ol>
+				</li>
+				<li>
 					<span class="font-bold text-lg">Odovzdávanie riešení</span>
 					<ol>
 						<li>
@@ -184,7 +191,7 @@
 							<ol class="list-alpha">
 								<li>
 									<span>
-										Elektronicky vo formáte .pdf na webovej stránke semináru
+										Elektronicky vo formáte .pdf na webovej stránke semináru.
 									</span>
 								</li>
 								<li>
@@ -197,10 +204,19 @@
 							</ol>
 						</li>
 						<li>
-							<span>
-								Elektronické riešenia sú akceptované písané na počítači, prípadne naskenované, 
-								pričom pre každú úlohu je možné poslať len jeden súbor.
-							</span>
+							<span>Electronicky:</span>
+							<ol class="list-alpha">
+								<li>
+									<span>
+										Písané rukou a zoskanované.
+									</span>
+								</li>
+								<li>
+									<span>
+										len 1 súbor vo formáte .pdf obsahujúci všetky príklady.
+									</span>
+								</li>
+							</ol>
 						</li>
 					</ol>
 				</li>
@@ -224,13 +240,13 @@
 						</li>
 						<li>
 							<span>
-								Opravené, obodované a okomentované riešenia budú zaslané na email-ovú adresu priloženú k registrácií. Okrem toho bude skóre zverejnené v tzv. leaderboarde pod špeciálnym ID účastníka.
+								Opravené, obodované a okomentované riešenia budú zaslané na email-ovú adresu priloženú k registrácií. Okrem toho bude skóre zverejnené vo výsledkovej listine.
 							</span>
 						</li>
 						<li>
 							<span>
-								V prípade, že sa účastník nestotožňuje s hodnotením úlohy, môže do 10 dní od zverejnenia výsledkov podať sťažnosť na e-mailovú adresu: <a
-									href="mailto:FMIX@TBD.com">FMIX@TBD.com</a>. Sťažnosť musí obsahovať podrobné zdôvodnenie a prípadné alternatívne riešenie.
+								V prípade, že sa účastník nestotožňuje s hodnotením úlohy, môže do 10 dní od zverejnenia výsledkov podať sťažnosť na e-mailovú adresu: <a class="link-text"
+									href="mailto:fmix@stuba.sk">fmix@stuba.sk</a>. Sťažnosť musí obsahovať podrobné zdôvodnenie a prípadné alternatívne riešenie.
 							</span>
 						</li>
 						<li>
@@ -256,7 +272,7 @@
 						<li>
 							<span>
 								Riešitelia 3. a 4. ročníka, ktorý odovzdali najprepracovanejšie a najlepšie riešenia úloh, dostanú za svoje excelentné výsledky diplom od riaditeľa ÚIM. Diplom úspešného riešiteľa je v zmysle podmienok prijatia na Bc. štúdium - odbor aplikovaná informatiky, akceptovaný pod kategóriou “súťaže organizované STU”. 
-								(viac na: <a
+								(viac na: <a class="link-text"
 									href="https://www.fei.stuba.sk/ako-zacat-studovat/podmienky-prijatia/bc.-studium.html?page_id=3759#hodnotenie-sutazi">https://www.fei.stuba.sk/ako-zacat-studovat/podmienky-prijatia/bc.-studium.html?page_id=3759#hodnotenie-sutazi</a>)
 							</span>
 						</li>

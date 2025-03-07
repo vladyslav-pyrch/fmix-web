@@ -22,6 +22,10 @@
     .link-button {
         @apply px-2 py-1 hover:bg-cobalt hover:text-white transition flex items-center justify-center
     }
+
+    .link-text {
+        @apply text-blue-400 underline underline-offset-1 hover:text-violet-500
+    }
     
     .w-126 {
         width: 32rem;
@@ -61,7 +65,7 @@
         @apply w-full bg-indigo-300 py-3 px-5 flex max-md:flex-col md:flex-row justify-around gap-2.5
     }
     .footer_ .content .part {
-        @apply flex flex-col text-center items-center
+        @apply flex flex-col text-center items-center max-md:border-b max-md:last:border-b-0 max-md:border-black max-md:border-opacity-25
     }
     
     .notification {
