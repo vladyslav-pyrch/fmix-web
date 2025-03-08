@@ -14,7 +14,7 @@
 			<tbody>
 			<tr class="border-t border-black border-opacity-50">
 				<td class="px-6 py-3 text-left">
-					<a class="link-text" href="assignments/2025-L-01.pdf">
+					<a target="_blank" class="link-text" href="assignments/2025-L-01.pdf">
 						Zadania 1. kola
 					</a>
 				</td>

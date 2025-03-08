@@ -245,8 +245,9 @@
 						</li>
 						<li>
 							<span>
-								V prípade, že sa účastník nestotožňuje s hodnotením úlohy, môže do 10 dní od zverejnenia výsledkov podať sťažnosť na e-mailovú adresu: <a class="link-text"
-									href="mailto:fmix@stuba.sk">fmix@stuba.sk</a>. Sťažnosť musí obsahovať podrobné zdôvodnenie a prípadné alternatívne riešenie.
+								V prípade, že sa účastník nestotožňuje s hodnotením úlohy, môže do 10 dní od zverejnenia výsledkov podať sťažnosť na e-mailovú adresu:
+								<a target="_blank" class="link-text" href="mailto:fmix@stuba.sk">fmix@stuba.sk</a>.
+								Sťažnosť musí obsahovať podrobné zdôvodnenie a prípadné alternatívne riešenie.
 							</span>
 						</li>
 						<li>
@@ -275,7 +276,7 @@
 								dostanú za svoje excelentné výsledky diplom od riaditeľa ÚIM. Diplom úspešného riešiteľa je v
 								zmysle podmienok prijatia na Bc. štúdium - odbor aplikovaná informatiky,
 								akceptovaný pod kategóriou “súťaže organizované STU”.
-								(viac na: <a class="link-text" href="https://www.fei.stuba.sk/ako-zacat-studovat/podmienky-prijatia/bc.-studium.html?page_id=3759#hodnotenie-sutazi">
+								(viac na: <a target="_blank" class="link-text" href="https://www.fei.stuba.sk/ako-zacat-studovat/podmienky-prijatia/bc.-studium.html?page_id=3759#hodnotenie-sutazi">
 									https://www.fei.stuba.sk/ako-zacat-studovat/podmienky-prijatia/bc.-studium.html?page_id=3759#hodnotenie-sutazi
 								</a>)
 							</span>

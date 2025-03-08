@@ -147,7 +147,7 @@ render:
 
 				<div class="form_block">
 					<input id="accepted" name="accepted" type="checkbox"  value="<?= htmlspecialchars($accepted ?? '') ?>" required>
-					<label for="accepted" class="font-medium text-gray-700">Prijatie <a href="index.php#rules" onclick="scrollToAndToggleOn('rules')" class="link-text">podmienok a pravidiel</a>.</label>
+					<label for="accepted" class="font-medium text-gray-700">Prijatie <a target="_blank" href="index.php#rules" class="link-text">podmienok a pravidiel</a>.</label>
 				</div>
 
 				<button type="submit" class="form_submit">Zaregistrovať sa</button>
