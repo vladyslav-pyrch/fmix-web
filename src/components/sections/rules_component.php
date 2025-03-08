@@ -271,9 +271,13 @@
 						</li>
 						<li>
 							<span>
-								Riešitelia 3. a 4. ročníka, ktorý odovzdali najprepracovanejšie a najlepšie riešenia úloh, dostanú za svoje excelentné výsledky diplom od riaditeľa ÚIM. Diplom úspešného riešiteľa je v zmysle podmienok prijatia na Bc. štúdium - odbor aplikovaná informatiky, akceptovaný pod kategóriou “súťaže organizované STU”. 
-								(viac na: <a class="link-text"
-									href="https://www.fei.stuba.sk/ako-zacat-studovat/podmienky-prijatia/bc.-studium.html?page_id=3759#hodnotenie-sutazi">https://www.fei.stuba.sk/ako-zacat-studovat/podmienky-prijatia/bc.-studium.html?page_id=3759#hodnotenie-sutazi</a>)
+								3. Riešitelia <b>3.</b> a <b>>4.</b> ročníka, ktorý získali aspoň 70 % z celkového bodového hodnotenia,
+								dostanú za svoje excelentné výsledky diplom od riaditeľa ÚIM. Diplom úspešného riešiteľa je v
+								zmysle podmienok prijatia na Bc. štúdium - odbor aplikovaná informatiky,
+								akceptovaný pod kategóriou “súťaže organizované STU”.
+								(viac na: <a class="link-text" href="https://www.fei.stuba.sk/ako-zacat-studovat/podmienky-prijatia/bc.-studium.html?page_id=3759#hodnotenie-sutazi">
+									https://www.fei.stuba.sk/ako-zacat-studovat/podmienky-prijatia/bc.-studium.html?page_id=3759#hodnotenie-sutazi
+								</a>)
 							</span>
 						</li>
 						<li>
