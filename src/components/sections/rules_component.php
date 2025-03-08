@@ -271,7 +271,7 @@
 						</li>
 						<li>
 							<span>
-								3. Riešitelia <b>3.</b> a <b>>4.</b> ročníka, ktorý získali aspoň 70 % z celkového bodového hodnotenia,
+								3. Riešitelia <b>3.</b> a <b>4.</b> ročníka, ktorý získali aspoň 70 % z celkového bodového hodnotenia,
 								dostanú za svoje excelentné výsledky diplom od riaditeľa ÚIM. Diplom úspešného riešiteľa je v
 								zmysle podmienok prijatia na Bc. štúdium - odbor aplikovaná informatiky,
 								akceptovaný pod kategóriou “súťaže organizované STU”.
