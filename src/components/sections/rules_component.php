@@ -76,10 +76,14 @@
 					</ol>
 				</li>
 				<li>
-					<span class="font-bold text-lg">Kategórie úloh</span>
+					<span class="font-bold text-lg">Úlohy a ich kategórie</span>
 					<ol>
 						<li>
-							<span>Úlohy sú rozdelené do dvoch kategórií <b>A</b> a <b>B</b>, pričom študenti jednotlivých ročníkov môžu riešiť iba vybrané úlohy z každej kategórie.</span>
+							<span>Každé kolo seminára sa skladá zo 4 matematických úloh, 1 úlohy z informatiky a 1 úlohy z kryptografie.</span>
+						</li>
+						<li>
+							Každá úloha má dve verzie A a B, pričom študenti jednotlivých ročníkov môžu riešiť iba verziu úlohy z
+							im určenej kategórie. Rozdelenie kategórií úloh pre jednotlivé ročníky je popísané v nasledujúcom bode.
 						</li>
 						<li>
 							<span>Ročníky sú určené na základe stredoškolského 4-ročného systému, t. j. nasledovne:</span>
@@ -172,7 +176,7 @@
 					</ol>
 				</li>
 				<li>
-					<span class="font-bold text-lg">Odovzdávanie riešení</span>
+					<span class="font-bold text-lg">Zadávanie a odovzdávanie riešení úloh</span>
 					<ol>
 						<li>
 							<span>
@@ -193,27 +197,19 @@
 									<span>
 										Elektronicky vo formáte .pdf na webovej stránke semináru.
 									</span>
+									<ul class="list-disc">
+										<li>písané rukou, zoscanované a uložené vo formáte PDF, alebo</li>
+										<li>písané na počítači a uložené vo formáte PDF.</li>
+										<li>Riešenia odovzdávané elektronicky musia byť uložene len v 1 PDF súbore. Ak
+											odovzdáte viac než 1 súbor, tak len posledný odovzdaný súbor sa bude považovať
+											za riešenia úloh a všetky predtým odovzdané súbory budú ignorované.</li>
+									</ul>
 								</li>
 								<li>
 									<span>
 										Písomne na adresu: Fakulta elektrotechniky a informatiky,
 										Ústav informatiky a matematiky, Ilkovičova 3, 841 04 Bratislava,<br> 
 										s poznámkou - FMIX na prednej strane obálky.
-									</span>
-								</li>
-							</ol>
-						</li>
-						<li>
-							<span>Electronicky:</span>
-							<ol class="list-alpha">
-								<li>
-									<span>
-										Písané rukou a zoskanované.
-									</span>
-								</li>
-								<li>
-									<span>
-										len 1 súbor vo formáte .pdf obsahujúci všetky príklady.
 									</span>
 								</li>
 							</ol>
@@ -267,18 +263,21 @@
 						</li>
 						<li>
 							<span>
-								Na sústredenie bude pozvaných 30 najlepších riešiteľov, pričom ostatní riešitelia môžu byť pozvaní ako náhradníci. Vyhlasovateľ si taktiež vyhradzuje právo pozvať aj riešiteľov, ktorý sa umiestnili na nižších priečkach, s prihliadnutím na ročník ako aj iné kategórie.
+								Na sústredenie bude pozvaných 30 najlepších riešiteľov, pričom ostatní riešitelia môžu byť pozvaní ako náhradníci.
+								Vyhlasovateľ si taktiež vyhradzuje právo pozvať aj riešiteľov, ktorý sa umiestnili na nižších priečkach,
+								s prihliadnutím na ročník ako aj iné kritéria.
 							</span>
 						</li>
 						<li>
 							<span>
-								3. Riešitelia <b>3.</b> a <b>4.</b> ročníka, ktorý získali aspoň 70 % z celkového bodového hodnotenia,
-								dostanú za svoje excelentné výsledky diplom od riaditeľa ÚIM. Diplom úspešného riešiteľa je v
-								zmysle podmienok prijatia na Bc. štúdium - odbor aplikovaná informatiky,
-								akceptovaný pod kategóriou “súťaže organizované STU”.
-								(viac na: <a target="_blank" class="link-text" href="https://www.fei.stuba.sk/ako-zacat-studovat/podmienky-prijatia/bc.-studium.html?page_id=3759#hodnotenie-sutazi">
-									https://www.fei.stuba.sk/ako-zacat-studovat/podmienky-prijatia/bc.-studium.html?page_id=3759#hodnotenie-sutazi
-								</a>)
+								Riešitelia <b>3.</b> a <b>4.</b> ročníka, ktorí získali aspoň 70 % z možných bodov,
+								dostanú za svoje excelentné výsledky diplom úspešného riešiteľa od riaditeľa ÚIM.
+								Tento diplom úspešného riešiteľa je v zmysle podmienok prijatia na
+								Bc. štúdium - odbor "Aplikovaná informatika", akceptovaný pod kategóriou “súťaže organizované STU”.
+								(viac na: <a target="_blank" class="link-text"
+								             href="https://www.fei.stuba.sk/ako-zacat-studovat/podmienky-prijatia/bc.-studium.html?page_id=3759#hodnotenie-sutazi">
+									https://www.fei.stuba.sk/ako-zacat-studovat/podmienky-prijatia/bc.-studium.html?page_id=3759#hodnotenie-sutazi</a>)
+								a študentom s diplomom budú odpustené príjimacie skúšky.
 							</span>
 						</li>
 						<li>
