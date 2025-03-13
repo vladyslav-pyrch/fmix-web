@@ -274,9 +274,10 @@
 								dostanú za svoje excelentné výsledky diplom úspešného riešiteľa od riaditeľa ÚIM.
 								Tento diplom úspešného riešiteľa je v zmysle podmienok prijatia na
 								Bc. štúdium - odbor "Aplikovaná informatika", akceptovaný pod kategóriou “súťaže organizované STU”.
-								(viac na: <a target="_blank" class="link-text"
-								             href="https://www.fei.stuba.sk/ako-zacat-studovat/podmienky-prijatia/bc.-studium.html?page_id=3759#hodnotenie-sutazi">
-									https://www.fei.stuba.sk/ako-zacat-studovat/podmienky-prijatia/bc.-studium.html?page_id=3759#hodnotenie-sutazi</a>).
+								Viac na: <a target="_blank" class="link-text"
+								            href="https://www.fei.stuba.sk/ako-zacat-studovat/podmienky-prijatia/bc.-studium.html?page_id=3759#hodnotenie-sutazi">
+									https://www.fei.stuba.sk/ako-zacat-studovat/podmienky-prijatia/bc.-studium.html?page_id=3759#hodnotenie-sutazi</a>.
+								(Študentom s diplomom budú odpustené príjimacie skúšky).
 							</span>
 						</li>
 						<li>

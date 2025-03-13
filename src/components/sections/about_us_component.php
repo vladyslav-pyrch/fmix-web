@@ -9,7 +9,7 @@
 		</div>
 		<h3 class="font-bold">Čo je FMIX ?</h3>
 		<p class=" pb-2">
-			<b>F</b>eikársky <b>M</b>atematicko, <b>I</b>nformaticko, <b>K</b>rpytografický seminár ponúka priestor na
+			<b>F</b>eikársky <b>M</b>atematicko, <b>I</b>nformaticko, <b>K</b>ryptografický seminár ponúka priestor na
 			rozvoj matematických a technických
 			zručností, určený pre študentov stredných škôl, ktorí radi objavujú a riešia výzvy z oblasti informatiky,
 			matematiky
