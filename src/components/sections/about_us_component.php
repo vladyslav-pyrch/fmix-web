@@ -13,19 +13,19 @@
 			rozvoj matematických a technických
 			zručností, určený pre študentov stredných škôl, ktorí radi objavujú a riešia výzvy z oblasti informatiky,
 			matematiky
-			a kryptografie. Našim cieľom je podporiť talentovaných mladých ľudí a inšpirovať ich na ceste k budúcemu
+			a kryptografie. Naším cieľom je podporiť talentovaných mladých ľudí a inšpirovať ich na ceste k budúcemu
 			akademickému životu.
 		</p>
 		<h3 class="font-bold">Ako to funguje?</h3>
 		<p class=" pb-2">
-			Seminár prebieha počas letného semestra akademického roka, začiatkom marca. Počas tohto obdobia je rozdelený do
-			troch samostatných blokov, pričom každý obsahuje 6 úloh (4 matematické, 1 informatická a 1 kryptografická).
+			Seminár prebieha počas letného semestra akademického roka. Počas tohto obdobia je rozdelený do
+			troch kôl, pričom každé kolo pozostáva zo 6 úloh (4 matematické, 1 informatická a 1 kryptografická).
 			Riešitelia majú na vypracovanie úloh stanovený čas a ich riešenia hodnotí odborná porota.
 		</p>
 		<p class=" pb-2">
 			Na konci seminára pozývame najúspešnejších riešiteľov na sústredenie, kde sa môžu stretnúť s ostatnými
 			talentovanými
-			študentmi, zúčastniť sa zaujímavých workshopov a zažiť nezabudnuteľnú atmosféru plnú vedomostí a zábavy.
+			študentmi, zúčastniť sa zaujímavých workshopov a zažiť nezabudnuteľnú atmosféru plnú zábavy a nových informácií.
 			Rozvoj schopností: Riešením úloh z matematiky, informatiky a kryptografie si zlepšíš svoje analytické a logické
 			myslenie.
 		</p>
@@ -43,7 +43,7 @@
 			</li>
 			<li>
 				<span>
-					<b>Komunita a networking:</b> Spoznáš ľudí s podobnými záujmami, s ktorými môžeš zdieľať svoje nadšenie pre vedu a technológie.
+					<b>Komunita a networking:</b> Spoznáš ľudí s podobnými záujmami, s ktorými môžeš zdieľať svoje nadšenie pre vedu a moderné technológie.
 				</span>
 			</li>
 			<li>
