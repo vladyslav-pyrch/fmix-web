@@ -25,6 +25,7 @@ if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
 	goto render;
 }
 
+date_default_timezone_set("Europe/Bratislava");
 $current_time = new DateTime();
 $deadline_time = Deadline::getDeadline();
 
@@ -38,16 +39,20 @@ $nickname_exists = false;
 if (empty($nickname)) {
 	$error_messages[] = 'Prezývka je povinná.';
 }
+
 if (empty($file['name'])) {
 	$error_messages[] = 'Súbor je povinný.';
 	goto render;
 }
+
 if ($file['error'] !== UPLOAD_ERR_OK) {
 	$error_messages[] = 'Chyba pri nahrávaní súboru.';
 }
+
 if ($file['size'] > $file_max_size) {
 	$error_messages[] = 'Súbor musí mať menej ako 10MB.';
 }
+
 if (file_exists("$csv_data_dir/$user_data")) {
 	$user_data_file = fopen("$csv_data_dir/$user_data", 'r');
 
@@ -59,16 +64,20 @@ if (file_exists("$csv_data_dir/$user_data")) {
 	}
 	fclose($user_data_file);
 }
+
 if (!$nickname_exists) {
 	$error_messages[] = 'Prezývka nie je zaregistrovaná.';
 }
+
 $file_extension = strtolower(pathinfo($file['name'], PATHINFO_EXTENSION));
 if (!in_array($file_extension, $allowed_extensions)) {
 	$error_messages[] = 'Povolené sú iba pdf súbory.';
 }
+
 if ($error_messages) {
 	goto render;
 }
+
 $target_path = "$upload_dir/" . $nickname . "_" . date("Y-m-d_H-i-s") . ".$file_extension";
 
 if (move_uploaded_file($file['tmp_name'], $target_path)) {
