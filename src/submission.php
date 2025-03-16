@@ -28,7 +28,7 @@ if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
 $current_time = new DateTime();
 $deadline_time = Deadline::getDeadline();
 
-if ($current_time > Deadline::deadline) {
+if ($current_time < Deadline::deadline) {
 	$error_messages[] = 'Termín na odovzdanie tejto úlohy uplynul.';
 	goto render;
 }
@@ -69,12 +69,12 @@ if (!in_array($file_extension, $allowed_extensions)) {
 if ($error_messages) {
 	goto render;
 }
-$target_path = "$upload_dir/" . $nickname . "_" . date("Y-m-d") . ".$file_extension";
+$target_path = "$upload_dir/" . $nickname . "_" . date("Y-m-d_H-i-s") . ".$file_extension";
 
 if (move_uploaded_file($file['tmp_name'], $target_path)) {
 	$submission_data_file = fopen("$csv_data_dir/$submission_data", 'a');
 
-	fputcsv($submission_data_file, [$nickname, $target_path, date('Y-m-d H:i:s')], ',', '"', '\\');
+	fputcsv($submission_data_file, [$nickname, $target_path, date('Y-m-d H-i-s')], ',', '"', '\\');
 	fclose($submission_data_file);
 	$success_message = 'Odovzdanie úlohy úspešné!';
 }

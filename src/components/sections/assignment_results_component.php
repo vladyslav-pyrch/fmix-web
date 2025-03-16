@@ -7,7 +7,7 @@
 			<thead>
 			<tr>
 				<th class="px-6 py-3 text-left">Meno a priezvisko</th>
-				<th class="px-6 py-3 text-center">Prezývka</th>
+				<th class="px-6 py-3 text-center">Škola</th>
 				<th class="px-6 py-3 text-right">Výsledok</th>
 			</tr>
 			</thead>
