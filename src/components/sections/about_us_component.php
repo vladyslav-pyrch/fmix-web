@@ -8,7 +8,7 @@
 			<img class="object-cover w-full rounded-xl" src="images/FEI_DOD-4.png" alt="dod image">
 		</div>
 		<h3 class="font-bold">Čo je FMIX ?</h3>
-		<p class=" pb-2">
+		<p class=" pb-2 pl-2">
 			<b>F</b>eikársky <b>M</b>atematicko, <b>I</b>nformaticko, <b>K</b>ryptografický seminár ponúka priestor na
 			rozvoj matematických a technických
 			zručností, určený pre študentov stredných škôl, ktorí radi objavujú a riešia výzvy z oblasti informatiky,
@@ -17,20 +17,20 @@
 			akademickému životu.
 		</p>
 		<h3 class="font-bold">Ako to funguje?</h3>
-		<p class=" pb-2">
+		<p class=" pb-2 pl-2">
 			Seminár prebieha počas letného semestra akademického roka. Počas tohto obdobia je rozdelený do
 			troch kôl, pričom každé kolo pozostáva zo 6 úloh (4 matematické, 1 informatická a 1 kryptografická).
 			Riešitelia majú na vypracovanie úloh stanovený čas a ich riešenia hodnotí odborná porota.
 		</p>
-		<p class=" pb-2">
+		<p class=" pb-2 pl-2">
 			Na konci seminára pozývame najúspešnejších riešiteľov na sústredenie, kde sa môžu stretnúť s ostatnými
 			talentovanými
 			študentmi, zúčastniť sa zaujímavých workshopov a zažiť nezabudnuteľnú atmosféru plnú zábavy a nových informácií.
 			Rozvoj schopností: Riešením úloh z matematiky, informatiky a kryptografie si zlepšíš svoje analytické a logické
 			myslenie.
 		</p>
-		<h3 class="font-bold">Prečo sa zapojiť?</h3>
-		<ul>
+		<h3 class="font-bold pl-2">Prečo sa zapojiť?</h3>
+		<ul class="pl-2">
 			<li>
 				<span>
 					<b>Zábava a výzvy:</b> Čakajú ťa zaujímavé úlohy, ktoré ťa potrápia, ale aj nadchnú.

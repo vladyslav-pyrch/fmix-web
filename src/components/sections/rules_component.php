@@ -135,7 +135,7 @@
 									<th class="px-6 py-3 border-b border-black">3. ročník</th>
 									<td class="px-6 py-3 border-b border-black">B</td>
 									<td class="px-6 py-3 border-b border-black">B</td>
-									<td class="px-6 py-3 border-b border-black">A, / B</td>
+									<td class="px-6 py-3 border-b border-black">A / B</td>
 									<td class="px-6 py-3 border-b border-black">A / B</td>
 									<td class="px-6 py-3 border-b border-black">B</td>
 									<td class="px-6 py-3 border-b border-black">B</td>

@@ -17,6 +17,7 @@ if (!file_exists($upload_dir)) {
 }
 
 $nickname = trim($_POST['nickname'] ?? '');
+$password = trim($_POST['password'] ?? '');
 
 $success_message = '';
 $error_messages = [];
@@ -36,8 +37,9 @@ if ($current_time < Deadline::deadline) {
 
 $file = $_FILES['file'] ?? null;
 $nickname_exists = false;
-if (empty($nickname)) {
-	$error_messages[] = 'Prezývka je povinná.';
+$password_is_right = false;
+if (empty($nickname) || empty($password)) {
+	$error_messages[] = 'Prezývka a heslo sú povinné.';
 }
 
 if (empty($file['name'])) {
@@ -59,14 +61,17 @@ if (file_exists("$csv_data_dir/$user_data")) {
 	while (($data = fgetcsv($user_data_file, 0, ',', '"', '\\')) !== false) {
 		if (strcasecmp($data[2], $nickname) === 0) {
 			$nickname_exists = true;
+
+			if (strcasecmp($data[3], $password) === 0)
+				$password_is_right = true;
 			break;
 		}
 	}
 	fclose($user_data_file);
 }
 
-if (!$nickname_exists) {
-	$error_messages[] = 'Prezývka nie je zaregistrovaná.';
+if (!$nickname_exists || !$password_is_right) {
+	$error_messages[] = 'Prezývka alebo heslo nie je správne.';
 }
 
 $file_extension = strtolower(pathinfo($file['name'], PATHINFO_EXTENSION));
@@ -131,11 +136,19 @@ render:
 
 			<form method="post" action="" enctype="multipart/form-data" class="w-full form_">
 				<h2 class="text-2xl font-bold mb-4 text-center">Odovzdávanie zadania</h2>
+
 				<div class="form_block">
 					<label for="nickname" class="form_label">Prezývka</label>
 					<input id="nickname" name="nickname" type="text" placeholder="Prezývka" class="form_input"
 					       value="<?= htmlspecialchars($nickname ?? '') ?>" required>
 				</div>
+
+				<div class="form_block">
+					<label for="password" class="form_label">Heslo</label>
+					<input id="password" name="password" type="password" placeholder="Heslo" class="form_input"
+					       value="<?= htmlspecialchars($password ?? '') ?>" required>
+				</div>
+
 				<div class="form_block">
 					<label for="file" class="form_label">Nahrať súbor</label>
 					<input id="file" name="file" type="file" placeholder="Nahrať súbor" class="form_input" required>

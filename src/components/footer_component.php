@@ -7,7 +7,7 @@
 				Ústav informatiky a matematiky,<br>
 				Ilkovičova 3,<br>
 				841 04 Bratislava,<br>
-				Slovakia
+				IČO: 00 397 687
 			</address>
 		</div>
 
