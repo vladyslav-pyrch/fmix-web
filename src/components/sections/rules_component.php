@@ -69,8 +69,8 @@
 						</li>
 						<li>
 							<span>
-								Zo seminára bude vylúčený študenti, ktorý sa v rozpore s pravidlami seminára,  
-								podvodným spôsobom zúčastňujú seminára alebo inak neoprávnene zasahuje do seminára a jeho priebehu.
+							Zo seminára bude vylúčený študent, ktorý sa v rozpore s pravidlami seminára 
+							podvodným spôsobom zúčastňuje alebo inak neoprávnene zasahuje do jeho priebehu.
 							</span>
 						</li>
 					</ol>
@@ -275,14 +275,15 @@
 						</li>
 						<li>
 							<span>
-								Riešitelia <b>3.</b> a <b>4.</b> ročníka, ktorí získali aspoň 70 % z možných bodov,
-								dostanú za svoje excelentné výsledky diplom úspešného riešiteľa od riaditeľa ÚIM.
+								Riešitelia <b>3.</b> a <b>4.</b> ročníka, ktorí získali aspoň 70 % z celkového bodového hodnotenia, 
+								dostanú za svoje výsledky diplom úspešného riešiteľa od riaditeľa ÚIM.
 								Tento diplom úspešného riešiteľa je v zmysle podmienok prijatia na
 								Bc. štúdium - odbor "Aplikovaná informatika", akceptovaný pod kategóriou “súťaže organizované STU”.
 								(Viac na: <a target="_blank" class="link-text"
+								(Viac na: <a target="_blank" class="link-text"
 								            href="https://www.fei.stuba.sk/ako-zacat-studovat/podmienky-prijatia/bc.-studium.html?page_id=3759#hodnotenie-sutazi">
-									https://www.fei.stuba.sk/ako-zacat-studovat/podmienky-prijatia/bc.-studium.html?page_id=3759#hodnotenie-sutazi</a>.
-								(Študentom s diplomom budú odpustené príjimacie skúšky).
+									https://www.fei.stuba.sk/ako-zacat-studovat/podmienky-prijatia/bc.-studium.html?page_id=3759#hodnotenie-sutazi</a>).
+								<br>Bodové hodnotenie súťaže je dostatočné na odpustenie príjmacieho konania.
 							</span>
 						</li>
 						<li>
