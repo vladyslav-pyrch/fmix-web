@@ -139,8 +139,8 @@ render:
 				</div>
 
 				<div class="form_block">
-					<label for="email" class="form_label">Mail</label>
-					<input id="email" name="email" type="text" placeholder="Mail" class="form_input"
+					<label for="email" class="form_label">Email</label>
+					<input id="email" name="email" type="text" placeholder="Email" class="form_input"
 					       value="<?= htmlspecialchars($email ?? '') ?>" required>
 				</div>
 
@@ -164,7 +164,7 @@ render:
 
 				<div class="form_block">
 					<input id="accepted" name="accepted" type="checkbox"  value="<?= htmlspecialchars($accepted ?? '') ?>" required>
-					<label for="accepted" class="font-medium text-gray-700">Prijatie <a target="_blank" href="index.php#rules" class="link-text">podmienok a pravidiel</a>.</label>
+					<label for="accepted" class="font-medium text-gray-700">Súhlasím s <a target="_blank" href="index.php#rules" class="link-text">Pravidlami seminára</a>, s ich obsahom som sa oboznámil/a a zaväzujem sa ich dodržiavať.</label>
 				</div>
 
 				<button type="submit" class="form_submit">Zaregistrovať sa</button>
