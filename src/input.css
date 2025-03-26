@@ -20,7 +20,7 @@
 
 @layer components {
     .link-button {
-        @apply px-2 py-1 h-12 hover:bg-[#4f4fff] hover:text-white transition flex items-center justify-center
+        @apply px-2 py-1 h-12 hover:bg-[#8a61e7] hover:text-white transition flex items-center justify-center
     }
 
     .link-text {

@@ -18,7 +18,7 @@
 						Zadania 1. kola
 					</a>
 				</td>
-				<td class="px-6 py-3 text-center">Po ukončený kola</td>
+				<td class="px-6 py-3 text-center">Po ukončení kola</td>
 				<td class="px-6 py-3 text-right">7.4.2025</td>
 			</tr>
 			</tbody>
