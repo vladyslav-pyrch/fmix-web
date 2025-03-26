@@ -115,12 +115,12 @@ render:
 		<div class="content max-md:w-full md:w-2/3 h-fit flex flex-col content-center">
 			<?php
 			includeComponent("./components/notifications/warning_component.php",
-				array("warning_message" => "Pre aktuálne zadanie predložte len jeden súbor. Do úvahy sa bude brať len posledný predložený súbor."));
+				array("warning_message" => "Ako riešenie odovzdajte len jeden súbor. Za finálne riešenie sa bude brať len posledný odovzdaný súbor."));
 			?>
 
 			<?php
 			includeComponent("./components/notifications/warning_component.php",
-				array("warning_message" => "Termín aktuálneho zadania je " . Deadline::deadline . "."));
+				array("warning_message" => "Termín aktuálneho zadania je " . Deadline::deadline . " 24:00."));
 			?>
 
 			<?php if ($success_message):
@@ -150,7 +150,7 @@ render:
 				</div>
 
 				<div class="form_block">
-					<label for="file" class="form_label">Nahrať súbor</label>
+					<label for="file" class="form_label">Vaše riešenie (PDF)</label>
 					<input id="file" name="file" type="file" placeholder="Nahrať súbor" class="form_input" required>
 				</div>
 
