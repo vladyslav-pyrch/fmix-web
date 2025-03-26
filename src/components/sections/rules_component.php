@@ -10,7 +10,7 @@
 			Predmetom týchto pravidiel Feikárskeho Matematicko-Informaticko-Kryptografického seminára <b>FMIX</b> 
 			(ďalej len „Seminár“ v príslušnom gramatickom tvare) je stanovenie podmienok, pravidiel a kritérií, 
 			ktoré musí účastník splniť, aby sa stal úspešným riešiteľom.
-				</span>
+			</span>
 		</div>
 		<br>
 		<div class="pl-3.5">
@@ -32,7 +32,7 @@
 					<ol>
 						<li>
 							<span>
-							1.	Cieľom seminára je podpora a rozvoj talentovaných študentov v oblastiach 
+							Cieľom seminára je podpora a rozvoj talentovaných študentov v oblastiach 
 							matematiky, informačných technológií a kryptografie, ako aj formovať budúcu 
 							generáciu študentov FEI STU a technicky zdatných odborníkov.
 							</span>
@@ -69,7 +69,7 @@
 						</li>
 						<li>
 							<span>
-							3.	Zo seminára bude vylúčený študent, ktorý sa v rozpore s pravidlami seminára 
+							Zo seminára bude vylúčený študent, ktorý sa v rozpore s pravidlami seminára 
 							podvodným spôsobom zúčastňuje alebo inak neoprávnene zasahuje do jeho priebehu.
 							</span>
 						</li>
@@ -276,13 +276,13 @@
 						<li>
 							<span>
 								Riešitelia <b>3.</b> a <b>4.</b> ročníka, ktorí získali aspoň 70 % z celkového bodového hodnotenia, 
-								dostanú za svoje výsledky diplom úspešného riešiteľa odriaditeľa ÚIM.
+								dostanú za svoje výsledky diplom úspešného riešiteľa od riaditeľa ÚIM.
 								Tento diplom úspešného riešiteľa je v zmysle podmienok prijatia na
 								Bc. štúdium - odbor "Aplikovaná informatika", akceptovaný pod kategóriou “súťaže organizované STU”.
-								Viac na: <a target="_blank" class="link-text"
+								(Viac na: <a target="_blank" class="link-text"
 								            href="https://www.fei.stuba.sk/ako-zacat-studovat/podmienky-prijatia/bc.-studium.html?page_id=3759#hodnotenie-sutazi">
-									https://www.fei.stuba.sk/ako-zacat-studovat/podmienky-prijatia/bc.-studium.html?page_id=3759#hodnotenie-sutazi</a>.
-								<br> Bodové hodnotenie súťaže je dostatočné na odpustenie príjmacieho konania.
+									https://www.fei.stuba.sk/ako-zacat-studovat/podmienky-prijatia/bc.-studium.html?page_id=3759#hodnotenie-sutazi</a>).
+								<br>Bodové hodnotenie súťaže je dostatočné na odpustenie príjmacieho konania.
 							</span>
 						</li>
 						<li>
