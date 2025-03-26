@@ -7,9 +7,9 @@
 			<span class="font-bold text-lg">Preambula</span>
 			<br>
 			<span>
-					Predmetom týchto pravidiel Feikárskeho Matematicko-Informaticko-Kryptografického seminára <b>FMIX</b>
-					(ďalej len „Seminár“ v príslušnom gramatickom tvare) je stanovenie podmienok, pravidiel a kritérií,
-					pri splnení ktorých sa oprávnená osoba zúčastnená na seminári môže stať úspešným riešiteľom seminára.
+			Predmetom týchto pravidiel Feikárskeho Matematicko-Informaticko-Kryptografického seminára <b>FMIX</b> 
+			(ďalej len „Seminár“ v príslušnom gramatickom tvare) je stanovenie podmienok, pravidiel a kritérií, 
+			ktoré musí účastník splniť, aby sa stal úspešným riešiteľom.
 				</span>
 		</div>
 		<br>
@@ -32,9 +32,9 @@
 					<ol>
 						<li>
 							<span>
-								Cieľom Seminára je podporiť a rozvíjať talentovaných študentov oblasti matematiky, 
-								informačných technológií a kryptografie, ako aj formovať budúcu generáciu študentov FEI STU
-								a technicky zdatných odborníkov.
+							1.	Cieľom seminára je podpora a rozvoj talentovaných študentov v oblastiach 
+							matematiky, informačných technológií a kryptografie, ako aj formovať budúcu 
+							generáciu študentov FEI STU a technicky zdatných odborníkov.
 							</span>
 						</li>
 						<li>
@@ -52,13 +52,13 @@
 							<span>Seminára sa môžu zúčastniť:</span>
 							<ol class="list-alpha">
 								<li>
-									<span>sú študentami stredných škôl alebo,</span>
+									<span>študenti stredných škôl alebo,</span>
 								</li>
 								<li>
-									<span>
-										sú študentami štvorročných, päťročných alebo osemročných gymnázií
-										ktorí sú mladší než 20 rokov.
-									</span>
+									<span>študenti štvorročných, päťročných alebo osemročných gymnázií,</span>
+								</li>
+								<li>
+									<span>a študenti ktorí sú mladší než 20 rokov.</span>
 								</li>
 							</ol>
 						</li>
@@ -69,24 +69,23 @@
 						</li>
 						<li>
 							<span>
-								Zo seminára bude vylúčený študenti, ktorý sa v rozpore s pravidlami seminára,  
-								podvodným spôsobom zúčastňujú seminára alebo inak neoprávnene zasahuje do seminára a jeho priebehu.
+							3.	Zo seminára bude vylúčený študent, ktorý sa v rozpore s pravidlami seminára 
+							podvodným spôsobom zúčastňuje alebo inak neoprávnene zasahuje do jeho priebehu.
 							</span>
 						</li>
 					</ol>
 				</li>
 				<li>
-					<span class="font-bold text-lg">Úlohy a ich kategórie</span>
+					<span class="font-bold text-lg">Kategórie úloh</span>
 					<ol>
 						<li>
-							<span>Každé kolo seminára sa skladá zo 4 matematických úloh, 1 úlohy z informatiky a 1 úlohy z kryptografie.</span>
+							<span>Každé kolo seminára sa skladá zo 4 úloh z matematiky, 1 úlohy z informatiky a 1 úlohy z kryptografie.</span>
 						</li>
 						<li>
-							Každá úloha má dve verzie A a B, pričom študenti jednotlivých ročníkov môžu riešiť iba verziu úlohy z
-							im určenej kategórie. Rozdelenie kategórií úloh pre jednotlivé ročníky je popísané v nasledujúcom bode.
+							Každá úloha má dve verzie A a B, pričom študenti jednotlivých ročníkov môžu riešiť iba verziu úlohy z určenej kategórie.
 						</li>
 						<li>
-							<span>Ročníky sú určené na základe stredoškolského 4-ročného systému, t. j. nasledovne:</span>
+							<span>Ročníky sa určujú podľa stredoškolského 4-ročného systému, t. j. nasledovne: </span>
 							<ul>
 								<li>
 									<span class="font-bold">4.ročník  =  Maturitný ročník</span>
@@ -102,6 +101,7 @@
 								</li>
 							</ul>
 						</li>
+						<br>
 						<li class="overflow-y-auto">
 							<table class="table-auto w-full border-collapse text-sm ">
 								<thead>
@@ -160,19 +160,13 @@
 								</tr>
 								</tbody>
 							</table>
+							<br>
 						</li>
 						<li>
-								<span>
-									Ak účastník má možnosť rieši úlohy z oboch kategórií, započíta sa mu riešenie s vyšším bodovým ohodnotením.
-								</span>
+							<span>Ak účastník má možnosť riešiť úlohy z oboch kategórií, započíta 
+								sa mu riešenie s vyšším bodovým ohodnotením.
+							</span>
 						</li>
-					</ol>
-				</li>
-				<li>
-					<span class="font-bold text-lg">Registrácia</span>
-					<ol>
-						<li>Registrovaným ľuďom sa budú zadania ďalšísh kôl posielať mailom.</li>
-						<li>Registráciou súhlasíte s tým, že výsledky budú zverejnené na webovej stránke seminára s vaším celým menom a prezývkou.</li>
 					</ol>
 				</li>
 				<li>
@@ -195,24 +189,31 @@
 							<ol class="list-alpha">
 								<li>
 									<span>
-										Elektronicky vo formáte .pdf na webovej stránke semináru.
+										Elektronicky vo formáte .pdf na webovej stránke seminára, 
+										v súlade s odsekom 4 a 5 tohto článku.
 									</span>
-									<ul class="list-disc">
-										<li>písané rukou, zoscanované a uložené vo formáte PDF, alebo</li>
-										<li>písané na počítači a uložené vo formáte PDF.</li>
-										<li>Riešenia odovzdávané elektronicky musia byť uložene len v 1 PDF súbore. Ak
-											odovzdáte viac než 1 súbor, tak len posledný odovzdaný súbor sa bude považovať
-											za riešenia úloh a všetky predtým odovzdané súbory budú ignorované.</li>
-									</ul>
 								</li>
 								<li>
 									<span>
 										Písomne na adresu: Fakulta elektrotechniky a informatiky,
 										Ústav informatiky a matematiky, Ilkovičova 3, 841 04 Bratislava,<br> 
-										s poznámkou - FMIX na prednej strane obálky.
+										s poznámkou - <b>FMIX</b> na prednej strane obálky.
 									</span>
 								</li>
 							</ol>
+						</li>
+						<li>
+							<span>
+							Elektronické riešenia sú akceptované písané na počítači a uložené vo formáte PDF, 
+							prípadne písané ručne, naskenované a uložené vo formáte PDF. 
+							</span>
+						</li>
+						<li>
+							<span>
+							Elektronicky odovzdané riešenia musia byť uložené len v jednom PDF súbore. V prípade 
+							viacerých odovzdaných súborov sa za finálne riešenie považuje posledná verzia, 
+							pričom predchádzajúce súbory budú ignorované.
+							</span>
 						</li>
 					</ol>
 				</li>
@@ -221,22 +222,27 @@
 					<ol>
 						<li>
 							<span>
-								Riešenia budú hodnotené na základe celkového postupu k riešeniu, zdôvodnenia ako aj správnosti riešenia.
+								Riešenia budú hodnotené na základe celkového postupu k riešeniu, zdôvodnenia 
+								ako aj správnosti riešenia.
 							</span>
 						</li>
 						<li>
 							<span>
-								Riešenie musí byť explicitné (pochopiteľné samo o sebe bez ďalších zdrojov) a čitateľné. V prípade, že riešenie alebo jeho časť nebude spĺňať tieto parametre, vyhlasovateľ si vyhradzuje právo neudeliť primeraný počet bodov.
+								Riešenie musí byť explicitné (pochopiteľné samo o sebe bez ďalších zdrojov) a 
+								čitateľné. V prípade, že riešenie alebo jeho časť nebude spĺňať tieto parametre, 
+								vyhlasovateľ si vyhradzuje právo neudeliť primeraný počet bodov.
 							</span>
 						</li>
 						<li>
 							<span>
-								Každá úloha má vopred stanovený počet bodov, ktorý môže byť udelený na základe čiastočného alebo úplného riešenia úlohy. 
+								Každá úloha má vopred stanovený počet bodov, ktorý môže byť udelený na základe 
+								čiastočného alebo úplného riešenia úlohy. 
 							</span>
 						</li>
 						<li>
 							<span>
-								Opravené, obodované a okomentované riešenia budú zaslané na email-ovú adresu priloženú k registrácií. Okrem toho bude skóre zverejnené vo výsledkovej listine.
+							Opravené, obodované a okomentované riešenia budú zaslané na e-mailovú adresu 
+							uvedenú pri registrácii. Okrem toho bude skóre zverejnené v tzv. výsledkovej listine .
 							</span>
 						</li>
 						<li>
@@ -263,26 +269,25 @@
 						</li>
 						<li>
 							<span>
-								Na sústredenie bude pozvaných 30 najlepších riešiteľov, pričom ostatní riešitelia môžu byť pozvaní ako náhradníci.
-								Vyhlasovateľ si taktiež vyhradzuje právo pozvať aj riešiteľov, ktorý sa umiestnili na nižších priečkach,
-								s prihliadnutím na ročník ako aj iné kritéria.
+								Na sústredenie bude pozvaných 30 najúspešnejších riešiteľov, pričom ostatní riešitelia môžu byť pozvaní ako náhradníci.
+								Vyhlasovateľ si taktiež vyhradzuje právo pozvať aj riešiteľov, ktorí sa umiestnili na nižších priečkach
 							</span>
 						</li>
 						<li>
 							<span>
-								Riešitelia <b>3.</b> a <b>4.</b> ročníka, ktorí získali aspoň 70 % z možných bodov,
-								dostanú za svoje excelentné výsledky diplom úspešného riešiteľa od riaditeľa ÚIM.
+								Riešitelia <b>3.</b> a <b>4.</b> ročníka, ktorí získali aspoň 70 % z celkového bodového hodnotenia, 
+								dostanú za svoje výsledky diplom úspešného riešiteľa odriaditeľa ÚIM.
 								Tento diplom úspešného riešiteľa je v zmysle podmienok prijatia na
 								Bc. štúdium - odbor "Aplikovaná informatika", akceptovaný pod kategóriou “súťaže organizované STU”.
 								Viac na: <a target="_blank" class="link-text"
 								            href="https://www.fei.stuba.sk/ako-zacat-studovat/podmienky-prijatia/bc.-studium.html?page_id=3759#hodnotenie-sutazi">
 									https://www.fei.stuba.sk/ako-zacat-studovat/podmienky-prijatia/bc.-studium.html?page_id=3759#hodnotenie-sutazi</a>.
-								(Študentom s diplomom budú odpustené príjimacie skúšky).
+								<br> Bodové hodnotenie súťaže je dostatočné na odpustenie príjmacieho konania.
 							</span>
 						</li>
 						<li>
 							<span>
-								Výhra spojená zo seminárom sa v zmysle § 4 ods. 5, písm. e) zákona číslo 30/2019 Z. z. o hazardných hrách a o zmene a doplnení niektorých zákonov nepovažuje za výhru z hazardnej hry.
+								Výhra spojená so seminárom sa v zmysle § 4 ods. 5, písm. e) zákona číslo 30/2019 Z. z. o hazardných hrách a o zmene a doplnení niektorých zákonov nepovažuje za výhru z hazardnej hry.
 							</span>
 						</li>
 					</ol>
@@ -292,7 +297,7 @@
 					<ol>
 						<li>
 							<span>
-								Vyhlasovateľ si vyhradzuje právo seminár skrátiť, prerušiť, odvolať alebo zmeniť pravidlá, ak to bude potrebné z dôvodu narušenia priebehu seminára, bezpečnosti, čestnosti alebo technických problémov. Všetky zmeny pravidiel nadobúdajú účinnosť ich zverejnením na webových stránkach vyhlasovateľa	
+								Vyhlasovateľ si vyhradzuje právo seminár skrátiť, prerušiť, odvolať alebo zmeniť pravidlá, ak to bude potrebné z dôvodu narušenia priebehu seminára, bezpečnosti, čestnosti alebo technických problémov.	
 							</span>
 						</li>
 						<li>
@@ -303,6 +308,16 @@
 						<li>
 							<span>
 								Vyhlasovateľ si vyhradzuje právo kontrolovať podmienky účasti v seminári a rozhodovať o sporoch súvisiacich so seminárom s konečnou platnosťou, vrátane práva vylúčiť účastníkov za porušenie pravidiel.
+							</span>
+						</li>
+						<li>
+							<span>
+								Účasťou v seminári a registráciou účastník vyjadruje súhlas s týmito pravidlami a so spracovaním svojich osobných údajov v rozsahu nevyhnutnom na účasť v seminári. Organizátor sa zaväzuje spracovávať osobné údaje v súlade s platnými právnymi predpismi.
+							</span>
+						</li>
+						<li>
+							<span>
+								Všetky zmeny pravidiel nadobúdajú účinnosť dňom ich zverejnenia na webovej stránke vyhlasovateľa.
 							</span>
 						</li>
 					</ol>
