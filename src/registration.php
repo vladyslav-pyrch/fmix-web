@@ -133,8 +133,8 @@ render:
 				</div>
 
 				<div class="form_block">
-					<label for="password_repeat" class="form_label">Heslo (opakovať)</label>
-					<input id="password_repeat" name="password_repeat" type="password" placeholder="Heslo (opakovať)" class="form_input"
+					<label for="password_repeat" class="form_label">Potvrďte heslo</label>
+					<input id="password_repeat" name="password_repeat" type="password" placeholder="Potvrďte heslo" class="form_input"
 					       value="<?= htmlspecialchars($password_repeat ?? '') ?>" required>
 				</div>
 
