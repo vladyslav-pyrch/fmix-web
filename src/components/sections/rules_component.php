@@ -14,7 +14,7 @@
 		</div>
 		<br>
 		<div class="pl-3.5">
-			<ol class="list-roman">
+			<ol class="list-roman md-2">
 				<li>
 					<span class="font-bold text-lg">Vyhlasovateľ seminára</span>
 					<ol>

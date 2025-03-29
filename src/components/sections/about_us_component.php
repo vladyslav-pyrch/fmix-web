@@ -43,7 +43,7 @@
 			</li>
 			<li>
 				<span>
-					<b>Sústredenie-</b> Najlepší riešitelia budú odmenení pozvánkou na sústredenie plné workshopov, prednášok a nezabudnuteľných zážitkov.
+					<b>Sústredenie -</b> Najlepší riešitelia budú odmenení pozvánkou na sústredenie plné workshopov, prednášok a nezabudnuteľných zážitkov.
 				</span>
 			</li>
 		</ul>

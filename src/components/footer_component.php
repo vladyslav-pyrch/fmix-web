@@ -20,6 +20,9 @@
 			<a class="flex justify-center link-text text-black" target="_blank" href="https://uim.fei.stuba.sk/">
 				Ústav informatiky a matematiky
 			</a>
+			<a class="flex justify-center link-text text-black" target="_blank" href="https://www.fei.stuba.sk/spolupraca-skoly/sutaze/fmix.html?page_id=7558">
+				Informácie o semináry (FEI STU)
+			</a>
 			<a class="flex justify-center link-text text-black" target="_blank" href="https://discord.gg/jyfvhyXxFy">
 				<img class="h-6" src="images/discord_logo.png" alt="Discord"> Discord
 			</a>
