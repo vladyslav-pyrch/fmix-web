@@ -284,9 +284,7 @@
 								Tento diplom úspešného riešiteľa je v zmysle podmienok prijatia na
 								Bc. štúdium - odbor "Aplikovaná informatika", akceptovaný pod kategóriou “súťaže organizované STU”.
 								(Viac na: <a target="_blank" class="link-text"
-								(Viac na: <a target="_blank" class="link-text"
-								            href="https://www.fei.stuba.sk/ako-zacat-studovat/podmienky-prijatia/bc.-studium.html?page_id=3759#hodnotenie-sutazi">
-									https://www.fei.stuba.sk/ako-zacat-studovat/podmienky-prijatia/bc.-studium.html?page_id=3759#hodnotenie-sutazi</a>).
+								            href="https://www.fei.stuba.sk/ako-zacat-studovat/podmienky-prijatia/bc.-studium.html?page_id=3759#hodnotenie-sutazi"></a>).
 								<br>Bodové hodnotenie súťaže je dostatočné na odpustenie prijímacieho konania.
 							</span>
 						</li>
