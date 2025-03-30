@@ -12,14 +12,14 @@
         <a href="index.php#rules" onclick="scrollToAndToggleOn('rules')" class="link-button">
             <span>Pravidlá</span>
         </a>
-        <a href="gallery.php" class="link-button">
-            <span>Galéria</span>
-        </a>
         <a href="index.php#assignments" onclick="scrollToAndToggleOn('assignments')" class="link-button">
             <span>Zadania</span>
         </a>
         <a href="index.php#assignment-results" onclick="scrollToAndToggleOn('assignment-results')" class="link-button">
             <span>Výsledky</span>
+        </a>
+        <a href="gallery.php" class="link-button">
+            <span>Galéria</span>
         </a>
         <a href="registration.php" class="link-button">
             <span>Registrácia</span>
