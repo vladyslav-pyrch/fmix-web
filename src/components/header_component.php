@@ -12,7 +12,7 @@
         <a href="index.php#rules" onclick="scrollToAndToggleOn('rules')" class="link-button">
             <span>Pravidlá</span>
         </a>
-        <a href="index.php#gallery" onclick="scrollToAndToggleOn('gallery')" class="link-button">
+        <a href="gallery.php" class="link-button">
             <span>Galéria</span>
         </a>
         <a href="index.php#assignments" onclick="scrollToAndToggleOn('assignments')" class="link-button">
