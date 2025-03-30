@@ -20,10 +20,7 @@
 			<div class="w-full"><img class="w-full" src="images/fmix_fullname.png" alt="full name"></div>
 		</div>
 	</section>
-    <section id="gallery" class="section">
-        <div class="section_header" onclick="scrollToAndToggleOn('gallery')">
-            <h2>Galéria</h2>
-        </div>
+    <section id="gallery" class="section mb-2.5">
         <div id="gallery_content">
             <div class="gallery_section">
                 <div class="header">
