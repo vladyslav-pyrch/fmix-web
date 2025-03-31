@@ -23,8 +23,6 @@
 
 	<?php includeComponent("./components/sections/about_us_component.php") ?>
 
-	<?php includeComponent("./components/sections/rules_component.php") ?>
-
 	<?php includeComponent("./components/sections/assignments_component.php") ?>
 
 	<?php includeComponent("./components/sections/assignment_results_component.php") ?>

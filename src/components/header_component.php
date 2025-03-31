@@ -23,7 +23,7 @@
 
             <div id="dropdownMenu" class="absolute right-0 mt-2 w-48 bg-violet-200 rounded-md shadow-lg hidden">
                 <a href="#" class="block px-4 py-2 text-gray-800 hover:bg-violet-300">O nás</a>
-                <a href="#" class="block px-4 py-2 text-gray-800 hover:bg-violet-300">Pravidlá</a>
+                <a href="rules.php" class="block px-4 py-2 text-gray-800 hover:bg-violet-300">Pravidlá</a>
                 <a href="#" class="block px-4 py-2 text-gray-800 hover:bg-violet-300">Organizátori</a>
                 <a href="#" class="block px-4 py-2 text-gray-800 hover:bg-violet-300">Kontakt</a>
             </div>
