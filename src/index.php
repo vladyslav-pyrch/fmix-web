@@ -23,12 +23,12 @@
         </div>
     </section>
 
-    <div class="flex flex-col-reverse m-10 mt-20 lg:flex-row items-center lg:gap-8 md:m-5">
+    <div class="flex flex-col-reverse m-10 mt-10 lg:flex-row items-center lg:gap-8 md:mx-10 md:mb-15">
         <div class="md:w-1/2">
             <h3 class="font-bold">Čo je FMIX?</h3>
             <p class="pb-2 pl-2">
                 <b>F</b>eikársky <b>M</b>atematicko-<b>I</b>nformaticko-<b>K</b>ryptografický seminár ponúka priestor na rozvoj 
-                matematických a technických zručností. Je určený pre študentov stredných škôl, ktorí radi objavujú a riešia výzvy 
+                matematických a technických zručností. Je určený pre študentov stredných škôl a gymnázií, ktorí radi objavujú a riešia výzvy 
                 z oblasti informatiky, matematiky a kryptografie. Našim cieľom je podporiť talentovaných mladých ľudí a inšpirovať 
                 ich na ceste k budúcemu akademickému a profesionálnemu rastu.
             </p>
@@ -55,6 +55,31 @@
 
         <div class="mb-3 md:w-1/2 md:mb-auto">
             <img class="object-cover w-xl md:w-full rounded-xl" src="images/FEI_DOD-4.png" alt="dod image">
+        </div>
+    </div>
+    <div class="flex flex-col-reverse m-10 mt-7 lg:flex-row items-center lg:gap-8 md:mx-10 md:mb-15">
+        <div class="md:w-1/2">
+            <h3 class="font-bold pl-2">Ako sa zapojiť do FMIX-u?</h3>
+            <ul class="pl-2 list-decimal list-inside" >
+                <li><b>Prečítaj si pravidlá –</b> Zistíš, ako seminár funguje a čo môžeš očakávať.</li>
+                <li><b>Pozri si aktuálne úlohy –</b> Zadania nájdeš na stránke seminára.</li>
+                <li><b>Rieš úlohy –</b> Skús sa popasovať s matematikou, informatikou a kryptografiou.</li>
+                <li><b>Odovzdaj riešenia –</b> Pri odovzdávaní jednoducho uvedieš svoj prezívku a heslo.</li>
+                <li><b>Sleduj výsledky –</b> Po vyhodnotení sa dozvieš, ako sa ti darilo.</li>
+            </ul>
+        </div>
+
+        <div class="md:w-1/2">
+            <h3 class="font-bold pl-2">Čo sú sústredenia?</h3>
+            <p class="pb-2 pl-2">
+                Najlepší riešitelia FMIX-u sa môžu tešiť na sústredenie – viacdňové 
+                stretnutie plné prednášok, workshopov a zábavných aktivít. Okrem riešenia 
+                zaujímavých úloh tu spoznáš nových ľudí, zažiješ súťaže, hry a neformálne 
+                diskusie s organizátormi.
+                <br>
+                Sústredenie je skvelá príležitosť, ako sa dozvedieť niečo nové, stretnúť 
+                rovnako nadšených ľudí a užiť si príjemnú atmosféru mimo školy.
+            </p>
         </div>
     </div>
 </main>

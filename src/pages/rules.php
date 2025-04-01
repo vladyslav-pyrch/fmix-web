@@ -14,7 +14,7 @@
 <body>
 <?php includeComponent('./components/header_component.php'); ?>
 
-<main class="main_">
+<main class="main_ items-center">
 	<section id="home" class="section max-md:hidden">
 		<div class="w-full pt-2">
 			<div class="w-full"><img class="w-full" src="images/fmix_fullname.png" alt="full name"></div>
@@ -352,7 +352,7 @@
 						</li>
 						<li>
 							<span>
-								Aktuálna verzia pravidiel bola schválená dňa 25.3.2025.
+								Aktuálna verzia pravidiel bola schválená dňa 25.3.2025, s účinnosťou od 25.3.2025.
 							</span>
 						</li>
 					</ol>
