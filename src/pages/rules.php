@@ -14,15 +14,15 @@
 <body>
 <?php includeComponent('./components/header_component.php'); ?>
 
-<main class="main_ items-center">
+<main class="main_">
 	<section id="home" class="section max-md:hidden">
 		<div class="w-full pt-2">
 			<div class="w-full"><img class="w-full" src="images/fmix_fullname.png" alt="full name"></div>
 		</div>
 	</section>
 	
-	<h2 class="px-6 pb-4 pt-1.5 font-thin text-4xl">Pravidlá</h2>
-	<div id="rules_content" class="content px-6 pt-4 pb-1.5">
+	<h2 class="px-10 pb-4 pt-1.5 font-thin text-4xl">Pravidlá</h2>
+	<div id="rules_content" class="content px-10 pt-4 pb-1.5">
 		<div>
 			<span class="font-bold text-lg">Preambula</span>
 			<br>
