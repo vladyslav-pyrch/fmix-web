@@ -25,7 +25,7 @@
                 <a href="index.php" class="block px-4 py-2 text-gray-800 hover:bg-violet-300">O nás</a>
                 <a href="rules.php" class="block px-4 py-2 text-gray-800 hover:bg-violet-300">Pravidlá</a>
                 <a href="team.php" class="block px-4 py-2 text-gray-800 hover:bg-violet-300">Organizátori</a>
-                <!--<a href="#" class="block px-4 py-2 text-gray-800 hover:bg-violet-300">Kontakt</a>-->
+                <a href="contact.php" class="block px-4 py-2 text-gray-800 hover:bg-violet-300">Kontakt</a>
             </div>
         </div>
 

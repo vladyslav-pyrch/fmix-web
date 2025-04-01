@@ -32,6 +32,7 @@ COPY ./src/pages/rules.php /var/www/html
 COPY ./src/pages/assignments.php /var/www/html
 COPY ./src/pages/assignments_results.php /var/www/html
 COPY ./src/pages/team.php /var/www/html
+COPY ./src/pages/contact.php /var/www/html
 COPY ./src/registration.php /var/www/html
 COPY ./src/submission.php /var/www/html
 COPY ./src/include_component.php /var/www/html
