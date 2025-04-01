@@ -29,10 +29,10 @@
             </div>
         </div>
 
-        <a href="index.php#assignments" onclick="scrollToAndToggleOn('assignments')" class="link-button px-4 py-2">
+        <a href="assignments.php" onclick="scrollToAndToggleOn('assignments')" class="link-button px-4 py-2">
             <span>Zadania</span>
         </a>
-        <a href="index.php#assignment-results" onclick="scrollToAndToggleOn('assignment-results')" class="link-button px-4 py-2">
+        <a href="assignments_results.php" onclick="scrollToAndToggleOn('assignment-results')" class="link-button px-4 py-2">
             <span>Výsledky</span>
         </a>
         <a href="gallery.php" class="link-button px-4 py-2">
