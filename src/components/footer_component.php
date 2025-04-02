@@ -4,7 +4,7 @@
 			<h1 class="text-xl">Kontakt</h1>
 			<address>
 				Fakulta elektrotechniky a informatiky STU<br>
-				Ústav informatiky a matematiky<br>
+				Ústav informatiky a matematiky - FMIX<br>
 				Ilkovičova 3, 841 04 Bratislava<br>
 				<p class="mt-2.5">
 					Email: 
