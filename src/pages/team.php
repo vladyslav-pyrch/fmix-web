@@ -26,7 +26,7 @@
     <h2 class="px-6 pb-4 pt-1.5 font-thin text-4xl">Náš tím</h2>
     <section id="team" class="section py-15"> 
         <div class="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-4 gap-x-6 gap-y-10">
-            <div class="overflow-hidden max-w-xs text-center ps-4">
+            <div class="overflow-hidden max-w-xs text-center p4">
                 <img class="w-32 h-32 rounded-full mx-auto" src="images/user.png" alt="Ján Novák">
                 <h3 class="text-lg font-semibold mt-4">Mgr. Jozef Kollár, PhD.</h3>
                 <p class="text-gray-600 mt-2">Zodpovedný pedagogický zamestnanec</p>
