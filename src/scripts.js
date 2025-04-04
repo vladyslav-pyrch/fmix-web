@@ -38,23 +38,3 @@ async function checkUrlHash() {
     else if (window.location.hash === '#assignment-results')
         await scrollToAndToggleOn('assignment-results');
 }
-
-document.getElementById('menuToggle').addEventListener('click', function () {
-    document.getElementById('menu').classList.toggle('hidden');
-});
-
-// Dropdown menu toggle
-document.getElementById('dropdownButton').addEventListener('click', function (event) {
-    event.stopPropagation(); // Prevents closing when clicking inside
-    document.getElementById('dropdownMenu').classList.toggle('hidden');
-});
-
-// Close dropdown when clicking outside
-document.addEventListener('click', function (event) {
-    let dropdownMenu = document.getElementById('dropdownMenu');
-    let dropdownButton = document.getElementById('dropdownButton');
-
-    if (!dropdownButton.contains(event.target) && !dropdownMenu.contains(event.target)) {
-        dropdownMenu.classList.add('hidden');
-    }
-});

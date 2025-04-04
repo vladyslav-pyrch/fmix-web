@@ -69,8 +69,8 @@
 						</li>
 						<li>
 							<span>
-							Zo seminára bude vylúčený študent, ktorý sa zúčastňuje v rozpore s pravidlami 
-							seminára alebo inak neoprávnene zasahuje do jeho priebehu.
+							Zo seminára bude vylúčený študent, ktorý sa v rozpore s pravidlami seminára 
+							podvodným spôsobom zúčastňuje alebo inak neoprávnene zasahuje do jeho priebehu.
 							</span>
 						</li>
 					</ol>
@@ -175,12 +175,12 @@
 						<li>
 							<span>
 								Úlohy budú zverejnené na oficiálnej stránke seminára vždy k určitému dátumu,
-								pričom účastníci budú mať na ich vyriešenie a odovzdanie stanovený čas.
+								pričom účastníci budú mať stanovený čas na ich vyriešenie a odovzdanie.
 							</span>
 						</li>
 						<li>
 							<span>
-								V hlavičke riešení musí byť čitateľne – tlačeným písmom uvedené: meno,
+								V hlavičke riešení musí byť čitateľne – tlačením písmom uvedené: meno,
 								priezvisko a špecifický identifikátor / zvolená prezývka riešiteľa.
 							</span>
 						</li>
@@ -197,7 +197,7 @@
 									<span>
 										Písomne na adresu: Fakulta elektrotechniky a informatiky,
 										Ústav informatiky a matematiky, Ilkovičova 3, 841 04 Bratislava,<br> 
-										s poznámkou <b>„FMIX“</b> na prednej strane obálky.
+										s poznámkou - <b>FMIX</b> na prednej strane obálky.
 									</span>
 								</li>
 							</ol>
@@ -242,22 +242,19 @@
 						<li>
 							<span>
 							Opravené, obodované a okomentované riešenia budú zaslané na e-mailovú adresu 
-							uvedenú pri registrácii. Okrem toho bude skóre zverejnené v tzv. výsledkovej listine.
+							uvedenú pri registrácii. Okrem toho bude skóre zverejnené v tzv. výsledkovej listine .
 							</span>
 						</li>
 						<li>
 							<span>
-								V prípade, že sa účastník nestotožňuje s hodnotením úlohy, môže do 10 dní od zverejnenia 
-								výsledkov podať sťažnosť na e-mailovú adresu:
+								V prípade, že sa účastník nestotožňuje s hodnotením úlohy, môže do 10 dní od zverejnenia výsledkov podať sťažnosť na e-mailovú adresu:
 								<a target="_blank" class="link-text" href="mailto:fmix@stuba.sk">fmix@stuba.sk</a>.
 								Sťažnosť musí obsahovať podrobné zdôvodnenie a prípadné alternatívne riešenie.
 							</span>
 						</li>
 						<li>
 							<span>
-								Účastníci sú povinní riešiť úlohy individuálne bez pomoci iných osôb, nástrojov a iných softvérových 
-								riešení, ktoré by neprimerane uľahčili ich riešenie. Výnimkou sú len tie nástroje, ktoré sú explicitne 
-								povolené v zadaniach úloh.
+								Účastníci sú povinní riešiť úlohy individuálne bez pomoci iných osôb, nástrojov a iných softvérových riešení, ktoré by neprimerane uľahčili ich riešenie. Výnimkou sú len tie nástroje, ktoré sú explicitne povolené v zadaniach úloh.
 							</span>
 						</li>
 					</ol>
@@ -272,9 +269,8 @@
 						</li>
 						<li>
 							<span>
-								Na sústredenie bude pozvaných 30 najúspešnejších riešiteľov, pričom ostatní riešitelia môžu byť pozvaní 
-								ako náhradníci.
-								Vyhlasovateľ si taktiež vyhradzuje právo pozvať aj riešiteľov, ktorí sa umiestnili na nižších priečkach.
+								Na sústredenie bude pozvaných 30 najúspešnejších riešiteľov, pričom ostatní riešitelia môžu byť pozvaní ako náhradníci.
+								Vyhlasovateľ si taktiež vyhradzuje právo pozvať aj riešiteľov, ktorí sa umiestnili na nižších priečkach
 							</span>
 						</li>
 						<li>
@@ -286,13 +282,12 @@
 								(Viac na: <a target="_blank" class="link-text"
 								            href="https://www.fei.stuba.sk/ako-zacat-studovat/podmienky-prijatia/bc.-studium.html?page_id=3759#hodnotenie-sutazi">
 									https://www.fei.stuba.sk/ako-zacat-studovat/podmienky-prijatia/bc.-studium.html?page_id=3759#hodnotenie-sutazi</a>).
-								<br>Bodové hodnotenie súťaže je dostatočné na odpustenie prijímacieho konania.
+								<br>Bodové hodnotenie súťaže je dostatočné na odpustenie príjmacieho konania.
 							</span>
 						</li>
 						<li>
 							<span>
-								Výhra spojená so seminárom sa podľa § 4 ods. 5 písm. e) zákona č. 30/2019 Z. z. o hazardných hrách nepovažuje 
-								za výhru z hazardnej hry.
+								Výhra spojená so seminárom sa v zmysle § 4 ods. 5, písm. e) zákona číslo 30/2019 Z. z. o hazardných hrách a o zmene a doplnení niektorých zákonov nepovažuje za výhru z hazardnej hry.
 							</span>
 						</li>
 					</ol>
@@ -302,37 +297,27 @@
 					<ol>
 						<li>
 							<span>
-								Vyhlasovateľ si vyhradzuje právo seminár skrátiť, prerušiť, odvolať alebo zmeniť pravidlá, ak to bude 
-								potrebné z dôvodu narušenia priebehu seminára, bezpečnosti, čestnosti alebo technických problémov.	
+								Vyhlasovateľ si vyhradzuje právo seminár skrátiť, prerušiť, odvolať alebo zmeniť pravidlá, ak to bude potrebné z dôvodu narušenia priebehu seminára, bezpečnosti, čestnosti alebo technických problémov.	
 							</span>
 						</li>
 						<li>
 							<span>
-								Vyhlasovateľ nenesie zodpovednosť za technické problémy alebo poruchy, ku ktorým by mohlo dôjsť na 
-								počítači či inom zariadení účastníka alebo akejkoľvek inej osoby v súvislosti s účasťou na seminári.
+								Vyhlasovateľ nenesie zodpovednosť za technické problémy alebo poruchy, ku ktorým by mohlo dôjsť na počítači či inom zariadení účastníka alebo akejkoľvek inej osoby v súvislosti s účasťou na seminári.
 							</span>
 						</li>
 						<li>
 							<span>
-								Vyhlasovateľ si vyhradzuje právo kontrolovať podmienky účasti v seminári a rozhodovať o sporoch 
-								súvisiacich so seminárom s konečnou platnosťou, vrátane práva vylúčiť účastníkov za porušenie pravidiel.
+								Vyhlasovateľ si vyhradzuje právo kontrolovať podmienky účasti v seminári a rozhodovať o sporoch súvisiacich so seminárom s konečnou platnosťou, vrátane práva vylúčiť účastníkov za porušenie pravidiel.
 							</span>
 						</li>
 						<li>
 							<span>
-								Účasťou v seminári a registráciou účastník vyjadruje súhlas s týmito pravidlami a so spracovaním 
-								svojich osobných údajov v rozsahu nevyhnutnom na účasť v seminári. Organizátor sa zaväzuje 
-								spracovávať osobné údaje v súlade s platnými právnymi predpismi.
+								Účasťou v seminári a registráciou účastník vyjadruje súhlas s týmito pravidlami a so spracovaním svojich osobných údajov v rozsahu nevyhnutnom na účasť v seminári. Organizátor sa zaväzuje spracovávať osobné údaje v súlade s platnými právnymi predpismi.
 							</span>
 						</li>
 						<li>
 							<span>
 								Všetky zmeny pravidiel nadobúdajú účinnosť dňom ich zverejnenia na webovej stránke vyhlasovateľa.
-							</span>
-						</li>
-						<li>
-							<span>
-								Aktuálna verzia pravidiel bola schválená dňa 25.3.2025.
 							</span>
 						</li>
 					</ol>

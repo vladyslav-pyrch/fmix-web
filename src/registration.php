@@ -164,7 +164,7 @@ render:
 
 				<div class="form_block">
 					<input id="accepted" name="accepted" type="checkbox"  value="<?= htmlspecialchars($accepted ?? '') ?>" required>
-					<label for="accepted" class="font-medium text-gray-700">Súhlasím s <a target="_blank" href="rules.php" class="link-text">Pravidlami seminára</a>, s ich obsahom som sa oboznámil/a a zaväzujem sa ich dodržiavať.</label>
+					<label for="accepted" class="font-medium text-gray-700">Súhlasím s <a target="_blank" href="index.php#rules" class="link-text">Pravidlami seminára</a>, s ich obsahom som sa oboznámil/a a zaväzujem sa ich dodržiavať.</label>
 				</div>
 
 				<button type="submit" class="form_submit">Zaregistrovať sa</button>

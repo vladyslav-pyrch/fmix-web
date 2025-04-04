@@ -14,7 +14,7 @@
 			z oblasti informatiky, matematiky a kryptografie. Našim cieľom je podporiť talentovaných mladých ľudí a inšpirovať 
 			ich na ceste k budúcemu akademickému a profesionálnemu rastu.
 		</p>
-		<h3 class="font-bold">Ako seminár funguje?</h3>
+		<h3 class="font-bold">Ako to funguje?</h3>
 		<p class=" pb-2 pl-2">
 		Seminár prebieha počas letného semestra akademického roka a je rozdelený do troch kôl. Každé kolo pozostáva zo 6 úloh 
 		(4 matematických, 1 informatickej a 1 kryptografickej). Riešitelia majú na ich vypracovanie stanovený čas a ich riešenia 
@@ -43,7 +43,7 @@
 			</li>
 			<li>
 				<span>
-					<b>Sústredenie -</b> Najlepší riešitelia budú odmenení pozvánkou na sústredenie plné workshopov, prednášok a nezabudnuteľných zážitkov.
+					<b>Sústredenie-</b> Najlepší riešitelia budú odmenení pozvánkou na sústredenie plné workshopov, prednášok a nezabudnuteľných zážitkov.
 				</span>
 			</li>
 		</ul>
