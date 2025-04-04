@@ -1,8 +1,28 @@
-<section id="rules" class="section">
-	<div class="section_header" onclick="scrollToAndToggleOn('rules')">
-		<h2>Pravidlá</h2>
-	</div>
-	<div id="rules_content" class="toggle-content hide content">
+<?php require "include_component.php"; ?>
+
+<!DOCTYPE html>
+<html lang="sk">
+
+<head>
+	<meta charset="UTF-8">
+	<title>FMIX - Pravidlá</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="output.css" rel="stylesheet">
+	<link rel="icon" href="images/fmix.png">
+</head>
+
+<body>
+<?php includeComponent('./components/header_component.php'); ?>
+
+<main class="main_">
+	<section id="home" class="section max-md:hidden">
+		<div class="w-full pt-2">
+			<div class="w-full"><img class="w-full" src="images/fmix_fullname.png" alt="full name"></div>
+		</div>
+	</section>
+	
+	<h2 class="px-10 pb-4 pt-1.5 font-thin text-4xl">Pravidlá</h2>
+	<div id="rules_content" class="content px-10 pt-4 pb-1.5">
 		<div>
 			<span class="font-bold text-lg">Preambula</span>
 			<br>
@@ -14,7 +34,7 @@
 		</div>
 		<br>
 		<div class="pl-3.5">
-			<ol class="list-roman">
+			<ol class="list-roman mb-5">
 				<li>
 					<span class="font-bold text-lg">Vyhlasovateľ seminára</span>
 					<ol>
@@ -285,7 +305,7 @@
 								Bc. štúdium - odbor "Aplikovaná informatika", akceptovaný pod kategóriou “súťaže organizované STU”.
 								(Viac na: <a target="_blank" class="link-text"
 								            href="https://www.fei.stuba.sk/ako-zacat-studovat/podmienky-prijatia/bc.-studium.html?page_id=3759#hodnotenie-sutazi">
-									https://www.fei.stuba.sk/ako-zacat-studovat/podmienky-prijatia/bc.-studium.html?page_id=3759#hodnotenie-sutazi</a>).
+									https://www.fei.stuba.sk/ako-zacat-studovat/podmienky-prijatia/bc.-studium.html?page_id=3759#hodnotenie-sutazi</a>)
 								<br>Bodové hodnotenie súťaže je dostatočné na odpustenie prijímacieho konania.
 							</span>
 						</li>
@@ -332,7 +352,7 @@
 						</li>
 						<li>
 							<span>
-								Aktuálna verzia pravidiel bola schválená dňa 25.3.2025.
+								Aktuálna verzia pravidiel bola schválená dňa 25.3.2025, s účinnosťou od 25.3.2025.
 							</span>
 						</li>
 					</ol>
@@ -340,4 +360,15 @@
 			</ol>
 		</div>
 	</div>
-</section>
+</main>
+
+<?php includeComponent('components/footer_component.php'); ?>
+
+<script src="scripts.js"></script>
+<script>
+	window.onload = checkUrlHash;
+	window.addEventListener('hashchange', checkUrlHash);
+</script>
+</body>
+
+</html>
