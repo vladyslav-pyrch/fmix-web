@@ -30,47 +30,47 @@
 				</div>
 				<div class="content grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-4 gap-4 gap-y-4">
 					<div class="h-auto max-w-full text-center p4">
-						<img class="w-32 h-32  mx-auto" src="images/user.png" alt="Ján Novák">
+						<img class="w-32 h-32  mx-auto" src="images/user.png" alt="Mgr. Jozef Kollár, PhD.">
 						<h3 class="text-lg font-semibold mt-4">Mgr. Jozef Kollár, PhD.</h3>
 						<p class="text-gray-600 mt-2">Zodpovedný pedagogický zamestnanec</p>
 					</div>
 					<div class="h-auto max-w-full rounded-lg text-center p-4">
-						<img class="w-32 h-32 rounded-full mx-auto" src="images/user.png" alt="Petra Malá">
+						<img class="w-32 h-32 rounded-full mx-auto" src="images/user.png" alt="Vladimíra Balohová">
 						<h3 class="text-lg font-semibold mt-4">Vladimíra Balohová </h3>
 						<p class="text-gray-600 mt-2">Vedúca seminára</p>
 					</div>
 					<div class="h-auto max-w-full rounded-lg text-center p-4">
-						<img class="w-32 h-32 rounded-full mx-auto" src="images/user.png" alt="Marek Kováč">
+						<img class="w-32 h-32 rounded-full mx-auto" src="images/user.png" alt="Marco Dzurilla">
 						<h3 class="text-lg font-semibold mt-4">Marco Dzurilla</h3>
 						<p class="text-gray-600 mt-2">Tajomník seminára</p>
 					</div>
 					<div class="h-auto max-w-full rounded-lg text-center p-4">
-						<img class="w-32 h-32 rounded-full mx-auto" src="images/user.png" alt="Ján Novák">
+						<img class="w-32 h-32 rounded-full mx-auto" src="images/user.png" alt="Natália Žilová">
 						<h3 class="text-lg font-semibold mt-4">Natália Žilová</h3>
 						<p class="text-gray-600 mt-2">Vedúca úseku matematiky</p>
 					</div>
 					<div class="h-auto max-w-full rounded-lg text-center p-4">
-						<img class="w-32 h-32 rounded-full mx-auto" src="images/user.png" alt="Petra Malá">
+						<img class="w-32 h-32 rounded-full mx-auto" src="images/user.png" alt="Adrián Lutišan">
 						<h3 class="text-lg font-semibold mt-4">Adrián Lutišan</h3>
 						<p class="text-gray-600 mt-2">Vedúci úseku informatiky</p>
 					</div>
 					<div class="h-auto max-w-full rounded-lg text-center p-4">
-						<img class="w-32 h-32 rounded-full mx-auto" src="images/user.png" alt="Marek Kováč">
+						<img class="w-32 h-32 rounded-full mx-auto" src="images/user.png" alt="Rudolf Tisoň">
 						<h3 class="text-lg font-semibold mt-4">Rudolf Tisoň</h3>
 						<p class="text-gray-600 mt-2">Ľudské zdroje</p>
 					</div>
 					<div class="h-auto max-w-full rounded-lg text-center p-4">
-						<img class="w-32 h-32 rounded-full mx-auto" src="images/user.png" alt="Ján Novák">
+						<img class="w-32 h-32 rounded-full mx-auto" src="images/user.png" alt="Marcel Takáč">
 						<h3 class="text-lg font-semibold mt-4">Marcel Takáč </h3>
 						<p class="text-gray-600 mt-2">Správca komunikácie</p>
 					</div>
 					<div class="h-auto max-w-full rounded-lg text-center p-4">
-						<img class="w-32 h-32 rounded-full mx-auto" src="images/user.png" alt="Petra Malá">
+						<img class="w-32 h-32 rounded-full mx-auto" src="images/user.png" alt="Vladyslav Pyrch">
 						<h3 class="text-lg font-semibold mt-4">Vladyslav Pyrch</h3>
 						<p class="text-gray-600 mt-2">Správca webového sídla</p>
 					</div>
 					<div class="h-auto max-w-full rounded-lg text-center p-4">
-						<img class="w-32 h-32 rounded-full mx-auto" src="images/user.png" alt="Marek Kováč">
+						<img class="w-32 h-32 rounded-full mx-auto" src="images/user.png" alt="Iryna Tokmyna">
 						<h3 class="text-lg font-semibold mt-4">Iryna Tokmyna</h3>
 						<p class="text-gray-600 mt-2">Vedúca PR</p>
 					</div>

@@ -40,6 +40,15 @@
             <td class="px-6 py-3 text-center">Po ukončení kola</td>
             <td class="px-6 py-3 text-right">7.4.2025</td>
         </tr>
+        <tr class="border-t border-black border-opacity-50">
+	        <td class="px-6 py-3 text-left">
+		        <a target="_blank" class="link-text" href="assignments/2025-L-02.pdf">
+			        Zadania 2. kola
+		        </a>
+	        </td>
+	        <td class="px-6 py-3 text-center">Po ukončení kola</td>
+	        <td class="px-6 py-3 text-right">30.4.2025</td>
+        </tr>
         </tbody>
         <caption class="text-right">(riešenia musia byť odovzdané do 24:00)</caption>
     </table>

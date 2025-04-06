@@ -120,7 +120,7 @@ render:
 
 			<?php
 			includeComponent("./components/notifications/warning_component.php",
-				array("warning_message" => "Termín aktuálneho zadania je " . Deadline::deadline . " 24:00."));
+				array("warning_message" => "Termín aktuálneho zadania je " . Deadline::deadline . "."));
 			?>
 
 			<?php if ($success_message):

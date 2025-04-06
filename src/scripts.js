@@ -5,7 +5,7 @@ async function scrollToAndToggleOn(id) {
     const section_contents = document.querySelectorAll("[id*='_content']")
     const toggle_section_content = document.getElementById(`${id}_content`)
     const turn_on = toggle_section_content.classList.contains('hide')
-    
+
     for (const section of section_contents) {
         if (section.classList.contains('show')) {
             section.classList.remove('show')
@@ -17,7 +17,7 @@ async function scrollToAndToggleOn(id) {
     if (!turn_on) {
         return;
     }
-    
+
     toggle_section_content.classList.remove('hide')
     await delay(200)
     toggle_section_content.classList.add('show')
@@ -38,3 +38,23 @@ async function checkUrlHash() {
     else if (window.location.hash === '#assignment-results')
         await scrollToAndToggleOn('assignment-results');
 }
+
+document.getElementById('menuToggle').addEventListener('click', function () {
+    document.getElementById('menu').classList.toggle('hidden');
+});
+
+// Dropdown menu toggle
+document.getElementById('dropdownButton').addEventListener('click', function (event) {
+    event.stopPropagation(); // Prevents closing when clicking inside
+    document.getElementById('dropdownMenu').classList.toggle('hidden');
+});
+
+// Close dropdown when clicking outside
+document.addEventListener('click', function (event) {
+    let dropdownMenu = document.getElementById('dropdownMenu');
+    let dropdownButton = document.getElementById('dropdownButton');
+
+    if (!dropdownButton.contains(event.target) && !dropdownMenu.contains(event.target)) {
+        dropdownMenu.classList.add('hidden');
+    }
+});
