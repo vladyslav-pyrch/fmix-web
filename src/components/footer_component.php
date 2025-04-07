@@ -16,7 +16,7 @@
 		</div>
 
 		<div class="part">
-			<h1 class="text-xl">Odkazy</h1>
+			<h1 class="text-xl">Odkazi</h1>
 			<a class="flex justify-center link-text text-black" target="_blank" href="https://uim.fei.stuba.sk/">
 				Ústav informatiky a matematiky
 			</a>

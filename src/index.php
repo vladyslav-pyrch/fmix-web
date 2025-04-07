@@ -69,7 +69,7 @@
 				<li><b>Prečítaj si pravidlá –</b> Zistíš, ako seminár funguje a čo môžeš očakávať.</li>
 				<li><b>Pozri si aktuálne úlohy –</b> Zadania nájdeš na stránke seminára.</li>
 				<li><b>Rieš úlohy –</b> Skús sa popasovať s matematikou, informatikou a kryptografiou.</li>
-				<li><b>Odovzdaj riešenia –</b> Pri odovzdávaní jednoducho uvedieš svoj prezívku a heslo.</li>
+				<li><b>Odovzdaj riešenia –</b> Pri odovzdávaní jednoducho uvedieš svoju prezívku a heslo.</li>
 				<li><b>Sleduj výsledky –</b> Po vyhodnotení sa dozvieš, ako sa ti darilo.</li>
 			</ul>
 		</div>
